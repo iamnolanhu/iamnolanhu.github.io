@@ -1,116 +1,91 @@
-# The Hacker theme
+# Nolan's Developer Portfolio
 
-[![.github/workflows/ci.yaml](https://github.com/pages-themes/hacker/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/hacker/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hacker.svg)](https://badge.fury.io/rb/jekyll-theme-hacker)
+Welcome to my developer portfolio, showcasing my work history and projects. Feel free to explore and get inspired!
 
-*Hacker is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/hacker), or even [use it today](#usage).*
+## About This Portfolio
 
-![Thumbnail of Hacker](thumbnail.png)
+This portfolio is built with Jekyll, a static site generator that transforms plain text into a beautiful website. It highlights my professional journey, technical skills, and projects that I've worked on over the years.
 
-## Usage
+## Clone and Setup
 
-To use the Hacker theme:
+If you're interested in using this portfolio as a template for your own site, follow these steps to clone the repository and set it up on your machine:
 
-1. Add the following to your site's `_config.yml`:
+### Prerequisites
 
-    ```yml
-    remote_theme: pages-themes/hacker@v0.2.0
-    plugins:
-    - jekyll-remote-theme # add this line to the plugins list if you already have one
-    ```
+Ensure you have the following installed on your system:
 
-2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
+- **Ruby** version 2.5.0 or higher
+- **RubyGems**
+- **Bundler**
+- **GCC and Make**
 
-    ```ruby
-    gem "github-pages", group: :jekyll_plugins
-    ```
+For detailed installation instructions, visit the [Jekyll documentation](https://jekyllrb.com/docs/).
 
-## Customizing
+### Installation Steps
 
-### Configuration variables
+1. **Clone the Repository:**
 
-Hacker will respect the following variables, if set in your site's `_config.yml`:
+   ```bash
+   git clone https://github.com/iamnolanhu/iamnolanhu.github.io.git
+   cd iamnolanhu.github.io
+   ```
 
-```yml
-title: [The title of your site]
-description: [A short description of your site's purpose]
-```
+2. **Install Dependencies:**
 
-Additionally, you may choose to set the following optional variables:
+   Use Bundler to install the necessary gems:
 
-```yml
-show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-google_analytics: [Your Google Analytics tracking ID]
-```
+   ```bash
+   bundle install
+   ```
 
-### Stylesheet
+3. **Set Up Environment Variables:**
 
-If you'd like to add your own custom styles:
+   If you have sensitive information like Google Analytics IDs, create a `_config_secrets.yml` file and add it to your `.gitignore`:
 
-1. Create a file called `/assets/css/style.scss` in your site
-2. Add the following content to the top of the file, exactly as shown:
-    ```scss
-    ---
-    ---
+   ```yaml
+   google_analytics: "YOUR_GOOGLE_ANALYTICS_ID"
+   ```
 
-    @import "{{ site.theme }}";
-    ```
-3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+4. **Serve the Site Locally:**
 
-*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
+   Run the following command to build and serve the site locally:
 
-### Layouts
+   ```bash
+   bundle exec jekyll serve --config _config.yml,_config_secrets.yml
+   ```
 
-If you'd like to change the theme's HTML layout:
+5. **View Your Site:**
 
-1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/hacker/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html).
-2. For more extensive changes, [copy the original template](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
-3. Create a file called `/_layouts/default.html` in your site
-4. Paste the default layout content copied in the first step
-5. Customize the layout as you'd like
+   Open your browser and navigate to `http://localhost:4000` to see your site in action.
 
-### Customizing Google Analytics code
+## Setting Up GitHub Pages with Jekyll
 
-Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
+1. **Push to GitHub:**
 
-### Overriding GitHub-generated URLs
+   After making your changes, push your repository to GitHub. Ensure your repository is named `yourusername.github.io` for user pages.
 
-Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
+2. **Configure GitHub Pages:**
 
-1. Look at [the template source](https://github.com/pages-themes/hacker/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
-2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
-    ```yml
-    github:
-      zip_url: http://example.com/download.zip
-      another_url: another value
-    ```
-3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
+   - Go to your repository on GitHub.
+   - Click on **Settings**.
+   - Scroll down to the **Pages** section.
+   - Select the branch you want to use for GitHub Pages (usually `main` or `master`).
+   - Click **Save**.
 
-*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
+3. **Custom Domain Setup:**
 
-For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
+   If you want to use a custom domain, create a `CNAME` file in the root of your repository with your domain name:
 
-## Roadmap
+   ```plaintext
+   www.yourdomain.com
+   ```
 
-See the [open issues](https://github.com/pages-themes/hacker/issues) for a list of proposed features (and known issues).
+   - Update your DNS settings to point your domain to GitHub Pages. Typically, this involves setting an `A` record to `185.199.108.153` (and similar IPs) and a `CNAME` record pointing to `yourusername.github.io`.
 
-## Project philosophy
+4. **Verify Your Site:**
 
-The Hacker theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
+   After setting up, your site should be live at `https://yourusername.github.io` or your custom domain.
 
-## Contributing
+---
 
-Interested in contributing to Hacker? We'd love your help. Hacker is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
-
-### Previewing the theme locally
-
-If you'd like to preview the theme locally (for example, in the process of proposing a change):
-
-1. Clone down the theme's repository (`git clone https://github.com/pages-themes/hacker`)
-2. `cd` into the theme's directory
-3. Run `script/bootstrap` to install the necessary dependencies
-4. Run `bundle exec jekyll serve` to start the preview server
-5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
-
-### Running tests
-
-The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
+Thank you for visiting my portfolio. I hope it inspires you to create something amazing!
