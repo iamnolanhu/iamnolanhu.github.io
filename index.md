@@ -2,122 +2,57 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+# Hi, I’m **Nolan.**
 
-[Link to another page](./another-page.html).
+<!-- *Data Scientist | Cyber Risk Enthusiast | Big Data Engineer | Volunteer Mentor* -->
 
-There should be whitespace between paragraphs.
+---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Welcome to my corner of the internet! I’m a developer and data professional based in **NYC**, passionate about harnessing technology to solve complex challenges—especially in the realms of **cybersecurity** and **data analytics**. Over the years, I’ve collaborated with global financial institutions, transforming business requirements into efficient data models, analytical insights, and automation solutions that streamline workflows and mitigate risk.
 
-# Header 1
+## About Me
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+I thrive on building scalable data pipelines and performing deep analytics to uncover actionable insights. My experiences range from implementing risk management strategies to architecting resilient data infrastructure. I’ve been fortunate to work with industry-leading organizations such as BNY Mellon, HSBC, and JPMorgan Chase, where I championed:
 
-## Header 2
+- **Automated Cybersecurity Monitoring** to bolster continuous control environments, ensuring robust protective measures.
+- **Data ETL & Pipeline Development** with tools like Hadoop, Spark, and Hive—supercharging analytics efficiency.
+- **Machine Learning & Predictive Analytics** for early detection of account risks and enhanced customer engagement.
+- **Streamlined Reporting** using Python, REST APIs, and cloud services, cutting down data processing times and reducing errors.
+  
+I’m also a **lifelong learner**, immersed in the world of blockchain, decentralized finance (DeFi), and digital transformation. Whether it’s Python, Bash scripting, or the latest in big data technologies, I’m always eager to experiment and push the boundaries of what’s possible.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Technical Highlights
 
-### Header 3
+- **Languages:** Python, Java, Bash, JavaScript, SQL  
+- **Big Data & Cloud:** Hadoop, Spark, Hive, Cassandra, DigitalOcean  
+- **Security & OS:** Linux (Ubuntu/Red Hat/Kali), macOS, Windows, Powershell  
+- **Other Tools:** Jupyter Notebook, Git, APIs, Docker, Alteryx  
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+I’m **fluent in English and Chinese** (Cantonese & Mandarin) and enjoy mentoring future technologists.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Projects & Initiatives
 
-#### Header 4
+1. **Cyber Risk Consequence Model**  
+   Drove the design of an automated system for vulnerability monitoring, integrating Python scripts with enterprise APIs to reduce manual overhead and strengthen security posture.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+2. **Employee Attrition Pipeline**  
+   Engineered an ETL approach to highlight real-time employee attrition signals. This included analyzing structured data via Spark and Hive and visualizing crucial trends to guide retention strategies.
 
-##### Header 5
+3. **Automated BAU Processes**  
+   Leveraged Selenium and Win32 APIs to eliminate repetitive tasks in financial processes, boosting overall productivity.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+## Education & Community
 
-###### Header 6
+I hold a **Bachelor of Technology in Computer Systems Technology** from the New York City College of Technology. Outside of work, you’ll find me engaging with local tech meetups, volunteering for youth mentorship programs, or participating in communities for leadership development. I truly believe in giving back and fostering the next generation of innovators.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+---
 
-### There's a horizontal rule below this.
+## Let’s Connect
 
-* * *
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/nolanhu) for professional connections, or keep an eye on my posts over on **X** where I share my thoughts.  
 
-### Here is an unordered list:
+You can also reach me via email. I’m always open to collaborating on exciting new projects, discussing data-centric solutions, or simply chatting about emerging technologies.
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+<div style="text-align: center;">
+  Ad Astra!
+</div>

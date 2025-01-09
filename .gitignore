@@ -3,3 +3,6 @@ _site
 Gemfile.lock
 *.gem
 .jekyll-cache
+.env
+_config_secrets.yml
+/.secrets
