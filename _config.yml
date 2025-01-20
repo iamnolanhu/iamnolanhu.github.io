@@ -12,5 +12,7 @@ plugins:
 
 custom_repository_url: "https://github.com/iamnolanhu"
 
+github: [metadata]
+
 # You can add other custom configurations here
 # For instance, you might override GitHub-related variables if neededgit a
