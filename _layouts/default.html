@@ -13,15 +13,6 @@
   <body>
 
     <header>
-      <iframe
-      class="matrix-bg"
-      src="https://rezmason.github.io/matrix/?skipIntro=false"
-      scrolling="no"
-      allowfullscreen
-      ></iframe>
-      
-      <!-- Black overlay -->
-      <div class="overlay"></div>
 
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
@@ -40,6 +31,15 @@
     </header>
 
     <div class="container">
+      <iframe
+      class="matrix-bg"
+      src="https://rezmason.github.io/matrix/?skipIntro=false"
+      scrolling="no"
+      allowfullscreen
+      ></iframe>
+      
+      <!-- Black overlay -->
+      <div class="overlay"></div>
       <section id="main_content">
         {{ content }}
       </section>
