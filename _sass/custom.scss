@@ -1,0 +1,27 @@
+.container {
+    width: 90%;
+    max-width: $container-max-width;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+
+.matrix-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border: none;
+    z-index: -1;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85); /* Semi-transparent black overlay */
+    z-index: -1; /* Between the Matrix and the container */
+}
