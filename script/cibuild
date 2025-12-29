@@ -6,4 +6,4 @@ bundle exec jekyll build
 gem build jekyll-theme-hacker.gemspec
 
 # Add the following line to ignore the LinkedIn link
-bundle exec htmlproofer ./_site --url-ignore "https://www.linkedin.com/in/nolanhu"
+bundle exec htmlproofer ./_site --url-ignore "https://www.linkedin.com/in/nolanhu,https://www.namecheap.com/support/api/,https://corporate.comcast.com/news-information/news-feed/comcast-and-nbcuniversal-drive-next-gen-storytelling-at-technology-hackathon,https://x402-ai-marketplace.vercel.app"

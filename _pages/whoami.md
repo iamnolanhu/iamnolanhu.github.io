@@ -58,7 +58,7 @@ The resume says "computer systems technology." The reality is I've been in the s
 - My first "real" job was being the sole IT person for a 20-person company at Globe Language Services
 - I think the best debugging tool is a good night's sleep (though I rarely take my own advice)
 
-<a href="#" id="easter-egg-trigger" class="easter-egg-trigger">[show hidden log]</a>
+<a href="javascript:void(0)" id="easter-egg-trigger" class="easter-egg-trigger">[show hidden log]</a>
 
 <pre id="hidden-log" class="hidden-log"><code>// dev.log - you found the hidden log. nice.
 
