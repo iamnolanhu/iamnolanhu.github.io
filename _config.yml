@@ -1,5 +1,6 @@
 title: "Nolan Hu"
-description: >
+description: "Like a ghost in the shell, I see beyond the data. Architecting the future."
+tagline: >
   Founder, Hacker, Visionary<br>
   Like a ghost in the shell, I see beyond the data.
 show_downloads: false
@@ -24,6 +25,9 @@ social:
     - https://github.com/iamnolanhu
     - https://linkedin.com/in/nolanhu
     - https://twitter.com/nolanhu
+
+# Logo for Google search results
+logo: /assets/images/favicon-256.png
 
 custom_repository_url: "https://github.com/iamnolanhu"
 
