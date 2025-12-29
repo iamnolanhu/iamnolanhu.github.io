@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<article class="project">
+  <header class="project-header">
+    <h1 class="project-title">{{ page.title }}</h1>
+    <p class="project-meta">
+      {% if page.tech %}
+        {% for tech in page.tech %}
+          <span class="tech-tag">{{ tech }}</span>
+        {% endfor %}
+      {% endif %}
+    </p>
+    {% if page.achievement %}
+    <p class="project-achievement">{{ page.achievement }}</p>
+    {% endif %}
+  </header>
+
+  {% if page.image %}
+  <div class="project-image">
+    <img src="{{ page.image }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+
+  <div class="project-links">
+    {% if page.github_url %}
+    <a href="{{ page.github_url }}" target="_blank" rel="noopener noreferrer" class="btn">View on GitHub</a>
+    {% endif %}
+    {% if page.live_url %}
+    <a href="{{ page.live_url }}" target="_blank" rel="noopener noreferrer" class="btn">Live Demo</a>
+    {% endif %}
+    {% if page.devpost_url %}
+    <a href="{{ page.devpost_url }}" target="_blank" rel="noopener noreferrer" class="btn">View on Devpost</a>
+    {% endif %}
+  </div>
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+
+  <footer class="project-footer">
+    <a href="{{ '/projects/' | relative_url }}">&larr; Back to Projects</a>
+  </footer>
+</article>
