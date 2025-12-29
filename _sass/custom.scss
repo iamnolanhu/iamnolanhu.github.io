@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     width: 90%;
     max-width: $container-max-width;
     margin: 0 auto;
@@ -24,4 +25,94 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.85); /* Semi-transparent black overlay */
     z-index: -1; /* Between the Matrix and the container */
+}
+ 
+.profile-image {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 10%; /* Adjust size as needed */
+    height: auto;
+    // border-radius: 50%; /* Optional: makes the image circular */
+}
+
+@media (max-width: 768px) {
+    .profile-image {
+      position: static;
+      display: block;
+      margin: 10px auto 0;
+    }
+  }
+
+/* Navigation */
+.site-nav {
+  margin-top: 15px;
+
+  .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btn-active {
+    background: rgba(181, 232, 83, 0.2);
+    border-color: #b5e853;
+  }
+}
+
+/* Blog Post List */
+.post-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    list-style-image: none;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 2px solid #b5e853;
+    background: rgba(0, 0, 0, 0.3);
+
+    &:hover {
+      background: rgba(181, 232, 83, 0.1);
+    }
+  }
+
+  .post-date {
+    font-family: Monaco, monospace;
+    color: #666;
+    margin-right: 15px;
+  }
+}
+
+/* Post Styles */
+.post {
+  .post-header {
+    margin-bottom: 30px;
+    border-bottom: 1px dashed #b5e853;
+    padding-bottom: 20px;
+  }
+
+  .post-title {
+    margin-bottom: 10px;
+  }
+
+  .post-meta {
+    color: #666;
+    font-size: 14px;
+  }
+
+  .post-footer {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px dashed #666;
+  }
+
+  .tag {
+    display: inline-block;
+    background: rgba(181, 232, 83, 0.1);
+    border: 1px solid #b5e853;
+    padding: 2px 8px;
+    margin-right: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+  }
 }
