@@ -4,7 +4,14 @@ title: Career
 permalink: /whoami/career/
 ---
 
-# 0xCareer
+<h1 class="page-title" data-text="./ 0xCareer"></h1>
+
+<div class="whoami-nav" style="margin-bottom: 2em; padding: 1em; background: rgba(181, 232, 83, 0.05); border: 1px solid #333; border-radius: 4px;">
+  <a href="{{ '/whoami/' | relative_url }}" style="margin-right: 1.5em;">0xWHOAMI</a>
+  <a href="{{ '/whoami/career/' | relative_url }}" style="margin-right: 1.5em;">0xCareer</a>
+  <a href="{{ '/whoami/timeline/' | relative_url }}" style="margin-right: 1.5em;">0xTimeline</a>
+  <a href="{{ '/whoami/press/' | relative_url }}">0xPress</a>
+</div>
 
 Full-stack engineer turned AI automation specialist with 10+ years in financial services. Currently building AI-powered business solutions as founder of Sigma Synapses.
 

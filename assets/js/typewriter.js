@@ -1,21 +1,17 @@
-// WHOAMI Page Interactive Features
+// Global Typewriter Effect for Page Titles
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Typewriter effect for title
   initTypewriter();
-
-  // Easter egg log toggle
   initEasterEgg();
 });
 
-// Typewriter Effect
+// Typewriter Effect - works on any element with .page-title class
 function initTypewriter() {
-  const titleElement = document.getElementById('whoami-title');
+  const titleElement = document.querySelector('.page-title');
   if (!titleElement) return;
 
-  const text = titleElement.getAttribute('data-text') || '0xWHOAMI';
+  const text = titleElement.getAttribute('data-text') || titleElement.textContent;
   titleElement.textContent = '';
-  titleElement.classList.add('typewriter-active');
 
   let i = 0;
   const cursor = document.createElement('span');
@@ -27,18 +23,16 @@ function initTypewriter() {
     if (i < text.length) {
       titleElement.insertBefore(document.createTextNode(text.charAt(i)), cursor);
       i++;
-      setTimeout(type, 100 + Math.random() * 50);
-    } else {
-      // Keep cursor blinking after typing completes
-      cursor.classList.add('blink');
+      setTimeout(type, 80 + Math.random() * 40);
     }
+    // Cursor keeps blinking via CSS animation (no class toggle needed)
   }
 
   // Small delay before starting
-  setTimeout(type, 500);
+  setTimeout(type, 300);
 }
 
-// Easter Egg Hidden Log
+// Easter Egg Hidden Log (only works on pages with these elements)
 function initEasterEgg() {
   const trigger = document.getElementById('easter-egg-trigger');
   const log = document.getElementById('hidden-log');
@@ -51,7 +45,6 @@ function initEasterEgg() {
 
     if (log.classList.contains('revealed')) {
       trigger.textContent = '[hide log]';
-      // Scroll to log
       log.scrollIntoView({ behavior: 'smooth', block: 'start' });
     } else {
       trigger.textContent = '[show hidden log]';

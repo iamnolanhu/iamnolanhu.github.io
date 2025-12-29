@@ -1,9 +1,29 @@
 title: "Nolan Hu"
 description: >
-  Founder, Hacker, Visionary<br>  
+  Founder, Hacker, Visionary<br>
   Like a ghost in the shell, I see beyond the data.
 show_downloads: false
 theme: jekyll-theme-hacker
+
+# Site URL (required for sitemap)
+url: "https://dev.nolanhu.com"
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social/SEO
+twitter:
+  username: nolanhu
+  card: summary_large_image
+
+social:
+  name: Nolan Hu
+  links:
+    - https://github.com/iamnolanhu
+    - https://linkedin.com/in/nolanhu
+    - https://twitter.com/nolanhu
 
 custom_repository_url: "https://github.com/iamnolanhu"
 
@@ -17,6 +37,10 @@ permalink: /blog/:year/:month/:day/:title/
 
 # Default frontmatter
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-default.png
   - scope:
       path: "_posts"
       type: "posts"

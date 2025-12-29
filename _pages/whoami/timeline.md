@@ -81,7 +81,14 @@ permalink: /whoami/timeline/
 }
 </style>
 
-# 0xTimeline
+<h1 class="page-title" data-text="./ 0xTimeline"></h1>
+
+<div class="whoami-nav" style="margin-bottom: 2em; padding: 1em; background: rgba(181, 232, 83, 0.05); border: 1px solid #333; border-radius: 4px;">
+  <a href="{{ '/whoami/' | relative_url }}" style="margin-right: 1.5em;">0xWHOAMI</a>
+  <a href="{{ '/whoami/career/' | relative_url }}" style="margin-right: 1.5em;">0xCareer</a>
+  <a href="{{ '/whoami/timeline/' | relative_url }}" style="margin-right: 1.5em;">0xTimeline</a>
+  <a href="{{ '/whoami/press/' | relative_url }}">0xPress</a>
+</div>
 
 A journey through code, competitions, and community.
 
