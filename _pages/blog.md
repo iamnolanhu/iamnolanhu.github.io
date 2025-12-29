@@ -4,7 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-# 0xBlog
+<h1 class="page-title" data-text="./ 0xBlog"></h1>
 
 {% if site.posts.size > 0 %}
 <ul class="post-list">

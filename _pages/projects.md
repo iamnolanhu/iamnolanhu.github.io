@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-# 0xProjects
+<h1 class="page-title" data-text="./ 0xProjects"></h1>
 
 ## Featured
 

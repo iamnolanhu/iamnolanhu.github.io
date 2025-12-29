@@ -4,9 +4,10 @@ title: WHOAMI
 permalink: /whoami/
 ---
 
-<h1 id="whoami-title" class="whoami-title" data-text="0xWHOAMI"></h1>
+<h1 class="page-title" data-text="./ 0xWHOAMI"></h1>
 
 <div class="whoami-nav" style="margin-bottom: 2em; padding: 1em; background: rgba(181, 232, 83, 0.05); border: 1px solid #333; border-radius: 4px;">
+  <a href="{{ '/whoami/' | relative_url }}" style="margin-right: 1.5em;">0xWHOAMI</a>
   <a href="{{ '/whoami/career/' | relative_url }}" style="margin-right: 1.5em;">0xCareer</a>
   <a href="{{ '/whoami/timeline/' | relative_url }}" style="margin-right: 1.5em;">0xTimeline</a>
   <a href="{{ '/whoami/press/' | relative_url }}">0xPress</a>
@@ -59,16 +60,17 @@ The resume says "computer systems technology." The reality is I've been in the s
 
 <a href="#" id="easter-egg-trigger" class="easter-egg-trigger">[show hidden log]</a>
 
-<div id="hidden-log" class="hidden-log">
-  <div class="log-header">// dev.log - personal notes (you found the easter egg)</div>
-  <div class="log-entry"><span class="timestamp">[2025-12-28 02:47:31]</span> <span class="message">System initialized. Coffee level: critical.</span></div>
-  <div class="log-entry"><span class="timestamp">[2025-12-28 03:15:22]</span> <span class="message">Debugging session #4729. The bug was a semicolon. Again.</span></div>
-  <div class="log-entry"><span class="timestamp">[2025-12-28 04:33:18]</span> <span class="message">Note to self: "it works on my machine" is not a deployment strategy.</span></div>
-  <div class="log-entry"><span class="timestamp">[2025-12-27 23:59:59]</span> <span class="message">Successfully mass-renamed 47 variables from 'x' to actual names.</span></div>
-  <div class="log-entry"><span class="timestamp">[2024-08-15 14:22:08]</span> <span class="message">Remembered to push before leaving. Personal growth.</span></div>
-  <div class="log-entry"><span class="timestamp">[2024-03-12 09:15:44]</span> <span class="message">Spent 3 hours debugging. Problem: wrong environment.</span></div>
-  <div class="log-entry"><span class="timestamp">[2023-11-30 16:42:17]</span> <span class="message">Finally understood why they call it "technical debt."</span></div>
-</div>
+<pre id="hidden-log" class="hidden-log"><code>// dev.log - you found the hidden log. nice.
+
+[2025-11-11 11:11:11] First puer tea of the day. Ready to ship.
+[2025-09-09 03:33:33] 3am debugging hits different. Found the race condition.
+[2025-06-22 04:20:00] Automated another workflow. One less thing to think about.
+[2025-03-28 09:09:09] Hackathon submitted at 4:19am. We won.
+[2024-11-22 22:22:22] Finally understood why they call it "technical debt."
+[2024-04-20 16:20:00] Refactored 2000 lines into 200. Less is more.
+[2023-09-03 03:06:09] The bug was a missing await. Three hours. Three.
+[2023-06-06 06:06:06] Note to self: "it works on my machine" is not a deployment strategy.
+</code></pre>
 
 <div class="whoami-cta">
   <p class="cta-text">Want to build something together?</p>

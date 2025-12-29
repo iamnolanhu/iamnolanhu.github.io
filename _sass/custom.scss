@@ -408,3 +408,101 @@ a.project-mini-card {
     }
   }
 }
+
+/* Page Title Typewriter Effect */
+.page-title {
+  display: inline-block;
+  min-width: 100px;
+
+  &:before {
+    content: none !important;
+  }
+}
+
+.typewriter-cursor {
+  color: #b5e853;
+  font-weight: normal;
+  animation: cursor-blink 0.7s infinite;
+}
+
+@keyframes cursor-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* Easter Egg Hidden Log */
+.easter-egg-trigger {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 5px 10px;
+  color: #555;
+  font-size: 12px;
+  font-family: Monaco, monospace;
+  cursor: pointer;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #b5e853;
+    text-decoration: none;
+  }
+}
+
+pre.hidden-log {
+  display: none !important;
+  margin-top: 20px;
+
+  &.revealed {
+    display: block !important;
+    animation: log-reveal 0.3s ease;
+  }
+}
+
+@keyframes log-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* WHOAMI Footer CTA */
+.whoami-cta {
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px dashed #b5e853;
+  text-align: center;
+
+  .cta-text {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .cta-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: rgba(181, 232, 83, 0.1);
+    border: 1px solid #b5e853;
+    color: #b5e853;
+    text-decoration: none;
+    font-family: Monaco, monospace;
+    font-size: 14px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background: rgba(181, 232, 83, 0.2);
+      box-shadow: 0 0 15px rgba(181, 232, 83, 0.3);
+      color: #d4ff6e;
+    }
+  }
+}
