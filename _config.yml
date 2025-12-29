@@ -1,7 +1,7 @@
 title: "Nolan Hu"
 description: >
   Founder, Hacker, Visionary<br>  
-  Like a ghost in the shell, I see beyond data.
+  Like a ghost in the shell, I see beyond the data.
 show_downloads: false
 google_analytics: "<%= ENV['GOOGLE_ANALYTICS_ID'] %>"
 theme: jekyll-theme-hacker
@@ -14,5 +14,17 @@ custom_repository_url: "https://github.com/iamnolanhu"
 
 github: [metadata]
 
-# You can add other custom configurations here
-# For instance, you might override GitHub-related variables if neededgit a
+# Author
+author: Nolan Hu
+
+# Permalink structure
+permalink: /blog/:year/:month/:day/:title/
+
+# Default frontmatter
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Nolan Hu"

@@ -6,3 +6,5 @@ Gemfile.lock
 .env
 _config_secrets.yml
 /.secrets
+CLAUDE.md
+.claude/

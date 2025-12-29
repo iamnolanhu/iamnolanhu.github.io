@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!-- ![Profile Picture](/assets/images/profile-pic.png){:height="25%" width="25%" style="display: block; margin: auto;" } -->
+
 # **0xHome**
 
 Welcome to my corner of the internet! I’m a developer and data professional based in **NYC**, passionate about harnessing technology to solve complex challenges—especially in the realms of **cybersecurity** and **data analytics**. Over the years, I’ve collaborated with global financial institutions, transforming business requirements into efficient data models, analytical insights, and automation solutions that streamline workflows and mitigate risk.
