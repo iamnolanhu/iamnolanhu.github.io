@@ -9,6 +9,13 @@ tech:
   - Stripe
   - Web3
 github_url: https://github.com/iamnolanhu/gamestop-web3-design
+ascii_art: |
+    +---------------------+
+    |  GAMESTOP  [Web3]   |
+    |  +----+    +----+   |
+    |  | NFT|    |USDC|   |
+    |  +----+    +----+   |
+    +---------------------+
 ---
 
 A modern e-commerce platform built with React, TypeScript, and Tailwind CSS, featuring Web3 integration and Stripe payments.

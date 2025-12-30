@@ -72,5 +72,5 @@ The biggest challenge was orchestrating asynchronous processes between scraping,
 
 <div class="team-section">
 <img src="https://raw.githubusercontent.com/iamnolanhu/sharkbyte-support/main/public/images/hackathon-3rd-place.webp" alt="The Sharks - 3rd Place">
-<p><strong>The Sharks</strong> - 3rd Place at MLH x DigitalOcean Hackathon 2025</p>
+<p><strong>SharkByte Support</strong> - 3rd Place at MLH x DigitalOcean Hackathon 2025</p>
 </div>

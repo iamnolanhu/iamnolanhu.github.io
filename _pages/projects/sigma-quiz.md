@@ -5,6 +5,13 @@ permalink: /projects/sigma-quiz/
 tech:
   - Python
   - React
+ascii_art: |
+    +----------------------+
+    |  SIGMA QUIZ          |
+    |  Q: What is...?      |
+    |  [A] [B] [C] [D]     |
+    |  Score: 100%  [*]    |
+    +----------------------+
 ---
 
 An interactive quiz platform with Python backend and responsive frontend.

@@ -8,6 +8,13 @@ tech:
   - Traefik
   - Let's Encrypt
 github_url: https://github.com/iamnolanhu/traefik-starter
+ascii_art: |
+    +----------------------+
+    |  [=] TRAEFIK v3      |
+    |  +-- HTTPS           |
+    |  +-- Let's Encrypt   |
+    |  +-- Auto-Discovery  |
+    +----------------------+
 ---
 
 A minimal, production-ready Traefik stack using Docker Compose, designed for easy replication and deployment on any server.

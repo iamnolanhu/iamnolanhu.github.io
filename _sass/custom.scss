@@ -536,22 +536,40 @@ a.project-mini-card {
 
   .team-section {
     margin-top: 30px;
+    text-align: center;
 
     img {
-      max-width: 100%;
+      max-width: 70%;
       border: 1px solid $conifer;
       border-radius: 4px;
-      margin: 15px 0;
+      margin: 15px auto;
+      display: block;
+
+      @media (max-width: $breakpoint-tablet) {
+        max-width: 100%;
+      }
     }
   }
 
   .screenshot {
-    margin: 20px 0;
+    margin: 20px auto;
+    text-align: center;
 
     img {
-      max-width: 100%;
+      max-width: 70%;
       border: 1px solid $conifer;
       border-radius: 4px;
+
+      @media (max-width: $breakpoint-tablet) {
+        max-width: 100%;
+      }
+    }
+
+    figcaption {
+      margin-top: 10px;
+      font-size: 0.9em;
+      color: $dove-grey;
+      font-style: italic;
     }
   }
 
