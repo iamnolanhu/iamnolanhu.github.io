@@ -1,0 +1,34 @@
+# Nolan Hu - AI Automation Engineer
+
+## About
+Nolan Hu is an AI automation specialist and full-stack developer based in NYC.
+10+ years in financial services (JPMorgan, HSBC, BNY Mellon).
+Founder of Sigma Synapses - building AI-powered business solutions.
+
+## Expertise
+- RAG (Retrieval Augmented Generation) architecture
+- n8n workflow automation
+- Python, TypeScript, React, Next.js
+- Claude, OpenAI, xAI API integrations
+- Cybersecurity and data analytics
+
+## Recent Achievements
+- 3rd Place: MLH x DigitalOcean Hackathon 2025
+- DigitalOcean Winner: Hacking with Agents NYC 2025
+- BlackHat USA scholarship recipient
+
+## Contact
+- Website: https://dev.nolanhu.com
+- GitHub: https://github.com/iamnolanhu
+- LinkedIn: https://linkedin.com/in/nolanhu
+- Twitter/X: https://x.com/nolanhu
+
+## Business
+Founder of Sigma Synapses (https://sigmasynapses.com)
+- AI-powered business solutions
+- RAG implementations
+- Workflow automation
+
+## Services
+Available for AI automation consulting, RAG implementations, and technical partnerships.
+Contact via Sigma Synapses or LinkedIn.

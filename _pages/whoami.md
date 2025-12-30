@@ -1,6 +1,7 @@
 ---
 layout: default
-title: WHOAMI
+title: "About Nolan Hu | AI Engineer, Founder & Security Enthusiast"
+description: "NYC-based AI automation engineer and founder of Sigma Synapses. BlackHat scholarship recipient, hackathon winner, and 7-year youth mentor. Building AI-powered business solutions."
 permalink: /whoami/
 ---
 

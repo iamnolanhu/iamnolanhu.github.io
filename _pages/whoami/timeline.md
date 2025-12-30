@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Timeline
+title: "Timeline | Nolan Hu - Career Journey from 2013 to 2025"
+description: "A visual timeline of achievements: hackathon wins, security scholarships, career milestones at JPMorgan, HSBC, BNY Mellon, and founding Sigma Synapses."
 permalink: /whoami/timeline/
 ---
 

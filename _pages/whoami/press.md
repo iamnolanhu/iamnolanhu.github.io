@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Press
+title: "Press & Media | Nolan Hu - Awards, Features & Recognition"
+description: "Media coverage and recognition: MLH hackathon winner, BlackHat USA scholarship, NBC hackathon champion, and security conference features."
 permalink: /whoami/press/
 ---
 

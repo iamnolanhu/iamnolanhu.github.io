@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Projects
+title: "Projects | Nolan Hu - AI Chatbots, Hackathon Winners & Open Source"
+description: "Portfolio of AI automation projects including RAG chatbots, hackathon-winning applications, and open source tools. Built with Python, TypeScript, and modern AI APIs."
 permalink: /projects/
 ---
 
