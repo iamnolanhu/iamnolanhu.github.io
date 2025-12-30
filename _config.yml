@@ -27,7 +27,7 @@ social:
     - https://twitter.com/nolanhu
 
 # Logo for Google search results
-logo: /assets/images/favicon-256.png
+logo: /assets/images/meta/favicon-256.png
 
 custom_repository_url: "https://github.com/iamnolanhu"
 
@@ -44,7 +44,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/og-default.png
+      image: /assets/images/meta/og-default.png
   - scope:
       path: "_posts"
       type: "posts"

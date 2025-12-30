@@ -24,7 +24,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/based-sigma/' | relative_url }}" class="project-card">
-<div class="project-icon"><img src="{{ '/assets/images/projects/sigmaguy.png' | relative_url }}" alt="Sigma Guy"></div>
+<div class="project-icon"><img src="{{ '/assets/images/projects/based-sigma/sigmaguy.png' | relative_url }}" alt="Sigma Guy"></div>
 <h3>Based Sigma</h3>
 <p>AI startup automation toolkit enabling rapid MVP development. Built at Bolt World's Largest Hackathon using React/Vite, Supabase, and Mistral AI.</p>
 <div class="tags-container">
