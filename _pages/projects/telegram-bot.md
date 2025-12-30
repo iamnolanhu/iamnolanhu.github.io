@@ -5,6 +5,13 @@ permalink: /projects/telegram-bot/
 tech:
   - Python
   - Telegram API
+ascii_art: |
+    +----------------------+
+    |  [@] TELEGRAM BOT    |
+    |  /start              |
+    |  /help               |
+    |  /automate [>]       |
+    +----------------------+
 ---
 
 An automated messaging bot with custom commands for productivity enhancement.

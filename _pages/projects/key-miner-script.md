@@ -8,6 +8,12 @@ tech:
   - Ethereum
   - Shell
 github_url: https://github.com/iamnolanhu/key-miner-script
+ascii_art: |
+    +----------------------+
+    |  KEY MINER [ETH]     |
+    |  [*] Generating...   |
+    |  0x420...9420: 0.5E  |
+    +----------------------+
 ---
 
 Automates Ethereum wallet generation, balance checking, and summarization. Combines Docker-based wallet generation and Python-powered balance validation into a streamlined process.

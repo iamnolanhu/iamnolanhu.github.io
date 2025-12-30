@@ -11,6 +11,13 @@ tech:
 github_url: https://github.com/iamnolanhu/x402-ai-marketplace
 live_url: https://x402-ai-marketplace.vercel.app
 achievement: "// CodeNYC/Coinbase Hackathon 2025"
+ascii_art: |
+    __  ____  __  ___  ___
+    \ \/ /  \/  |/ _ \|__ \
+     \  /| |\/| | | | | / /
+     /  \| |  | | |_| |/ /_
+    /_/\_\_|  |_|\___/|____|
+       AI  MARKETPLACE
 ---
 
 A revolutionary decentralized AI marketplace with x402 payment protocol integration. Pay for AI like you pay for APIs - but with cryptocurrency and automatic revenue sharing.
