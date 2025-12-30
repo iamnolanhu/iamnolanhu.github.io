@@ -47,7 +47,7 @@ I hold a **Bachelor of Technology in Computer Systems Technology** from the New 
 
 ## Let's Connect
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/nolanhu) for professional connections, or keep an eye on my posts over on **X** where I share my thoughts.
+Feel free to connect with me on <a href="https://www.linkedin.com/in/nolanhu" target="_blank" rel="noopener noreferrer">LinkedIn</a> for professional connections, or keep an eye on my posts over on <a href="https://x.com/nolanhu" target="_blank" rel="noopener noreferrer">X</a> where I share my thoughts.
 
 You can also reach me via email. I'm always open to collaborating on exciting new projects, discussing data-centric solutions, or simply chatting about emerging technologies.
 

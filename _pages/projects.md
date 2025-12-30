@@ -32,7 +32,7 @@ permalink: /projects/
 <span class="tech-tag">SaaS</span>
 <span class="tech-tag">AI</span>
 </div>
-<span class="achievement">// World's Largest Bolt Hackathon</span>
+<span class="achievement">// World's Largest Hackathon by Bolt</span>
 </a>
 
 <a href="{{ '/projects/twelvesocial/' | relative_url }}" class="project-card">

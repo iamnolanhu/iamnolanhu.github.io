@@ -24,7 +24,6 @@
           <a href="{{ '/blog/' | relative_url }}" class="btn {% if page.url contains '/blog' %}btn-active{% endif %}">Blog</a>
           <a href="{{ '/projects/' | relative_url }}" class="btn {% if page.url contains '/projects' %}btn-active{% endif %}">Projects</a>
           <a href="{{ '/whoami/' | relative_url }}" class="btn {% if page.url contains '/whoami' %}btn-active{% endif %}">WHOAMI</a>
-          <a href="{{ site.custom_repository_url }}" class="btn btn-github" target="_blank" rel="noopener noreferrer"><span class="icon"></span>GitHub</a>
         </nav>
         <img src="{{ '/assets/images/profile-pic.jpg' | relative_url }}" alt="Profile Image" class="profile-image" id="profile-pic">
       </div>
@@ -43,6 +42,7 @@
       <section id="main_content">
         {{ content }}
       </section>
+      {% include footer.html %}
     </div>
     <script src="{{ '/assets/js/particle-effect.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/typewriter.js' | relative_url }}"></script>

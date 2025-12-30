@@ -6,10 +6,9 @@ permalink: /whoami/
 
 <h1 class="page-title" data-text="./ 0xWHOAMI"></h1>
 
-<div class="whoami-nav" style="margin-bottom: 2em; padding: 1em; background: rgba(181, 232, 83, 0.05); border: 1px solid #333; border-radius: 4px;">
-  <a href="{{ '/whoami/' | relative_url }}" style="margin-right: 1.5em;">0xWHOAMI</a>
-  <a href="{{ '/whoami/career/' | relative_url }}" style="margin-right: 1.5em;">0xCareer</a>
-  <a href="{{ '/whoami/timeline/' | relative_url }}" style="margin-right: 1.5em;">0xTimeline</a>
+<div class="whoami-nav">
+  <a href="{{ '/whoami/career/' | relative_url }}">0xCareer</a>
+  <a href="{{ '/whoami/timeline/' | relative_url }}">0xTimeline</a>
   <a href="{{ '/whoami/press/' | relative_url }}">0xPress</a>
 </div>
 
@@ -58,7 +57,7 @@ The resume says "computer systems technology." The reality is I've been in the s
 - My first "real" job was being the sole IT person for a 20-person company at Globe Language Services
 - I think the best debugging tool is a good night's sleep (though I rarely take my own advice)
 
-<a href="javascript:void(0)" id="easter-egg-trigger" class="easter-egg-trigger">[show hidden log]</a>
+<button type="button" id="easter-egg-trigger" class="easter-egg-trigger">[show hidden log]</button>
 
 <pre id="hidden-log" class="hidden-log"><code>// dev.log - you found the hidden log. nice.
 
@@ -72,9 +71,3 @@ The resume says "computer systems technology." The reality is I've been in the s
 [2023-06-06 06:06:06] Note to self: "it works on my machine" is not a deployment strategy.
 </code></pre>
 
-<div class="whoami-cta">
-  <p class="cta-text">Want to build something together?</p>
-  <div class="cta-buttons">
-    <a href="https://github.com/iamnolanhu" class="cta-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
-  </div>
-</div>

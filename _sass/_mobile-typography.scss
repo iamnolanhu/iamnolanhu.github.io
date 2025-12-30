@@ -1,0 +1,77 @@
+// ===========================================
+// Mobile Typography Module
+// Matches body text compactness to headers
+// Uses breakpoint variables from jekyll-theme-hacker.scss
+// ===========================================
+
+// Tablet and below
+@media (max-width: $breakpoint-tablet) {
+  body {
+    font-size: 14px;
+  }
+
+  p, li {
+    font-size: clamp(13px, 3.5vw, 14px);
+    line-height: 1.55;
+    margin-bottom: 0.9em;
+  }
+
+  blockquote {
+    font-size: 13px;
+    padding: 10px 15px;
+    margin: 1em 0;
+  }
+
+  pre, code {
+    font-size: 12px;
+  }
+
+  h1, h2, h3 {
+    margin-bottom: 0.6em;
+  }
+
+  hr {
+    margin: 1.2em 0;
+  }
+}
+
+// Phone large and below
+@media (max-width: $breakpoint-phone-lg) {
+  body {
+    font-size: 13px;
+  }
+
+  p, li {
+    font-size: clamp(12px, 3.2vw, 13px);
+    line-height: 1.5;
+  }
+
+  blockquote {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
+  pre, code {
+    font-size: 11px;
+  }
+}
+
+// Phone small and below
+@media (max-width: $breakpoint-phone-sm) {
+  body {
+    font-size: 12px;
+  }
+
+  p, li {
+    font-size: clamp(11px, 3vw, 12px);
+    margin-bottom: 0.8em;
+  }
+
+  h1, h2, h3, h4 {
+    margin-bottom: 0.5em;
+  }
+
+  hr {
+    margin: 1em 0;
+  }
+}

@@ -1,77 +1,172 @@
+// ===========================================
+// Custom Styles
+// Uses variables from jekyll-theme-hacker.scss
+// ===========================================
+
+// Shared Tech Tag Component
+// Use .tech-tag--mini modifier for compact variant
+.tech-tag {
+  display: inline-block;
+  background: rgba($conifer, 0.1);
+  border: 1px solid $conifer;
+  color: $conifer;
+  padding: 2px 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  border-radius: 3px;
+
+  &--mini {
+    border-color: $gray-border;
+    color: $gray-medium;
+    padding: 1px 6px;
+    font-size: 11px;
+  }
+}
+
 header {
   position: relative;
   z-index: 10;
+
+  .container {
+    @media (max-width: $breakpoint-tablet) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  #a-title {
+    @media (max-width: $breakpoint-tablet) {
+      order: 2;
+
+      h1 {
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  h2 {
+    @media (max-width: $breakpoint-tablet) {
+      order: 3;
+      margin-bottom: 10px;
+      font-size: 13px;
+      line-height: 1.3;
+    }
+
+    @media (max-width: $breakpoint-phone-sm) {
+      font-size: 12px;
+    }
+  }
+
+  .site-nav {
+    @media (max-width: $breakpoint-tablet) {
+      order: 4;
+      margin-top: 5px;
+    }
+  }
+
+  .profile-image {
+    @media (max-width: $breakpoint-tablet) {
+      order: 1;
+    }
+  }
 }
 
 .container {
-    position: relative;
-    width: 90%;
-    max-width: $container-max-width;
-    margin: 0 auto;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  position: relative;
+  width: 90%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0 15px;
+  box-sizing: border-box;
+
+  @media (max-width: $breakpoint-phone-sm) {
+    width: 95%;
+    padding: 0 10px;
   }
+}
 
 .matrix-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    border: none;
-    z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  border: none;
+  z-index: -1;
 }
 
 .overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.85); /* Semi-transparent black overlay */
-    z-index: -1; /* Between the Matrix and the container */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: -1;
 }
- 
+
 .profile-image {
-    position: absolute;
-    top: 50px;
-    right: 100px;
-    width: 10%;
-    height: auto;
-    border: 2px solid #b5e853;
-    border-radius: 50%;
-    filter: saturate(0.8) brightness(0.9);
-    box-shadow: 0 0 15px rgba(181, 232, 83, 0.4), 0 0 30px rgba(181, 232, 83, 0.2);
-    transition: all 0.3s ease;
-    cursor: pointer;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  width: 10%;
+  min-width: 80px;
+  max-width: 120px;
+  height: auto;
+  border: 2px solid $conifer;
+  border-radius: 50%;
+  filter: saturate(0.8) brightness(0.9);
+  -webkit-filter: saturate(0.8) brightness(0.9);
+  box-shadow: 0 0 15px rgba($conifer, 0.4), 0 0 30px rgba($conifer, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
 
-    &:hover {
-        filter: saturate(1) brightness(1) hue-rotate(-10deg);
-        box-shadow: 0 0 20px rgba(181, 232, 83, 0.6), 0 0 40px rgba(181, 232, 83, 0.3);
-        border-color: #d4ff6e;
-    }
-}
-
-@media (max-width: 768px) {
-    .profile-image {
-      position: static;
-      display: block;
-      margin: 10px auto 0;
-    }
+  &:hover {
+    filter: saturate(1) brightness(1) hue-rotate(-10deg);
+    -webkit-filter: saturate(1) brightness(1) hue-rotate(-10deg);
+    box-shadow: 0 0 20px rgba($conifer, 0.6), 0 0 40px rgba($conifer, 0.3);
+    border-color: #d4ff6e;
   }
+
+  @media (max-width: $breakpoint-tablet) {
+    position: static;
+    display: block;
+    width: 70px;
+    margin: 10px auto 8px;
+  }
+
+  @media (max-width: $breakpoint-phone-sm) {
+    width: 60px;
+    margin: 8px auto 6px;
+  }
+}
 
 /* Navigation */
 .site-nav {
   margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  @media (max-width: $breakpoint-tablet) {
+    justify-content: center;
+    gap: 6px;
+  }
 
   .btn {
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
   }
 
   .btn-active {
-    background: rgba(181, 232, 83, 0.2);
-    border-color: #b5e853;
+    background: rgba($conifer, 0.2);
+    border-color: $conifer;
   }
 }
 
@@ -84,18 +179,29 @@ header {
     list-style-image: none;
     margin-bottom: 15px;
     padding: 10px;
-    border-left: 2px solid #b5e853;
+    border-left: 2px solid $conifer;
     background: rgba(0, 0, 0, 0.3);
 
     &:hover {
-      background: rgba(181, 232, 83, 0.1);
+      background: rgba($conifer, 0.1);
+    }
+
+    @media (max-width: $breakpoint-phone-lg) {
+      padding: 12px;
     }
   }
 
   .post-date {
     font-family: Monaco, monospace;
-    color: #666;
+    color: $dove-grey;
     margin-right: 15px;
+
+    @media (max-width: $breakpoint-phone-sm) {
+      display: block;
+      margin-right: 0;
+      margin-bottom: 5px;
+      font-size: 12px;
+    }
   }
 }
 
@@ -109,13 +215,13 @@ header {
 .post {
   .post-header {
     margin-bottom: 30px;
-    border-bottom: 1px dashed #b5e853;
+    border-bottom: 1px dashed $conifer;
     padding-bottom: 20px;
   }
 
   .post-title {
     margin-bottom: 10px;
-    margin-left: 0; /* Override theme's header h1 -40px margin */
+    margin-left: 0;
 
     &:before {
       content: none !important;
@@ -123,33 +229,32 @@ header {
   }
 
   .post-meta {
-    color: #666;
+    color: $dove-grey;
     font-size: 14px;
   }
 
   .post-footer {
     margin-top: 30px;
     padding-top: 20px;
-    border-top: 1px dashed #666;
+    border-top: 1px dashed $dove-grey;
   }
 
   .tag {
-    display: inline-block;
-    background: rgba(181, 232, 83, 0.1);
-    border: 1px solid #b5e853;
-    padding: 2px 8px;
-    margin-right: 5px;
-    font-size: 12px;
-    border-radius: 3px;
+    @extend .tech-tag;
   }
 }
 
 /* Featured Project Cards */
 .featured-projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 20px;
   margin-bottom: 40px;
+
+  @media (max-width: $breakpoint-phone-lg) {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
 }
 
 a.project-card {
@@ -158,7 +263,7 @@ a.project-card {
 }
 
 .project-card {
-  border: 1px solid #b5e853;
+  border: 1px solid $conifer;
   padding: 20px;
   background: rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease;
@@ -167,27 +272,37 @@ a.project-card {
   grid-template-rows: 140px auto auto 1fr auto auto;
   cursor: pointer;
 
+  @media (max-width: $breakpoint-phone-lg) {
+    padding: 15px;
+    grid-template-rows: 100px auto auto 1fr auto auto;
+  }
+
   &:hover {
-    background: rgba(181, 232, 83, 0.1);
-    box-shadow: 0 0 15px rgba(181, 232, 83, 0.3);
+    background: rgba($conifer, 0.1);
+    box-shadow: 0 0 15px rgba($conifer, 0.3);
   }
 
   .project-icon {
     font-family: 'Monaco', 'Courier New', monospace;
     font-size: 12px;
-    color: #b5e853;
+    color: $conifer;
     margin-bottom: 15px;
     white-space: pre;
     line-height: 1.1;
-    text-shadow: 0 0 8px rgba(181, 232, 83, 0.5);
+    text-shadow: 0 0 8px rgba($conifer, 0.5);
     height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
 
-    @media (max-width: 768px) {
+    @media (max-width: $breakpoint-tablet) {
       font-size: 10px;
       height: 120px;
+    }
+
+    @media (max-width: $breakpoint-phone-lg) {
+      font-size: 9px;
+      height: 100px;
     }
 
     a {
@@ -204,6 +319,11 @@ a.project-card {
       max-width: 120px;
       max-height: 120px;
       display: block;
+
+      @media (max-width: $breakpoint-phone-lg) {
+        max-width: 80px;
+        max-height: 80px;
+      }
     }
   }
 
@@ -213,7 +333,7 @@ a.project-card {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #b5e853;
+    color: $conifer;
   }
 
   &:hover h3 {
@@ -223,23 +343,24 @@ a.project-card {
   p {
     min-height: 90px;
     margin-bottom: 15px;
-    color: #ccc;
+    color: $gray-lighter;
+
+    @media (max-width: $breakpoint-phone-lg) {
+      min-height: auto;
+      font-size: 0.9em;
+    }
   }
 
   .tags-container {
     min-height: 75px;
     align-self: end;
+
+    @media (max-width: $breakpoint-phone-lg) {
+      min-height: auto;
+    }
   }
 
-  .tech-tag {
-    display: inline-block;
-    background: rgba(181, 232, 83, 0.1);
-    border: 1px solid #b5e853;
-    padding: 2px 8px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    font-size: 12px;
-  }
+  // Uses shared .tech-tag class
 
   .achievement {
     display: block;
@@ -253,8 +374,12 @@ a.project-card {
 /* Other Projects Grid */
 .other-projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
   gap: 15px;
+
+  @media (max-width: $breakpoint-phone-lg) {
+    grid-template-columns: 1fr;
+  }
 }
 
 a.project-mini-card {
@@ -263,20 +388,20 @@ a.project-mini-card {
 }
 
 .project-mini-card {
-  border: 1px solid #555;
+  border: 1px solid $gray-border;
   padding: 15px;
   background: rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 
   &:hover {
-    border-color: #b5e853;
-    background: rgba(181, 232, 83, 0.05);
-    box-shadow: 0 0 10px rgba(181, 232, 83, 0.2);
+    border-color: $conifer;
+    background: rgba($conifer, 0.05);
+    box-shadow: 0 0 10px rgba($conifer, 0.2);
   }
 
   h4 {
     margin: 0 0 8px 0;
-    color: #b5e853;
+    color: $conifer;
     font-size: 15px;
   }
 
@@ -286,20 +411,15 @@ a.project-mini-card {
 
   p {
     margin: 0 0 10px 0;
-    color: #999;
+    color: $gray-light;
     font-size: 13px;
     line-height: 1.4;
   }
 
+  // Mini variant for compact cards
   .tech-tag {
-    display: inline-block;
-    background: rgba(181, 232, 83, 0.1);
-    border: 1px solid #555;
-    padding: 1px 6px;
-    margin-right: 5px;
+    @extend .tech-tag--mini;
     margin-top: 5px;
-    font-size: 11px;
-    color: #777;
   }
 }
 
@@ -307,7 +427,7 @@ a.project-mini-card {
 .project {
   .project-header {
     margin-bottom: 30px;
-    border-bottom: 1px dashed #b5e853;
+    border-bottom: 1px dashed $conifer;
     padding-bottom: 20px;
   }
 
@@ -323,15 +443,7 @@ a.project-mini-card {
   .project-meta {
     margin-bottom: 10px;
 
-    .tech-tag {
-      display: inline-block;
-      background: rgba(181, 232, 83, 0.1);
-      border: 1px solid #b5e853;
-      padding: 2px 8px;
-      margin-right: 5px;
-      font-size: 12px;
-      border-radius: 3px;
-    }
+    // Uses shared .tech-tag class
   }
 
   .project-achievement {
@@ -353,13 +465,13 @@ a.project-mini-card {
 
     h2 {
       margin-top: 30px;
-      border-bottom: 1px dashed #666;
+      border-bottom: 1px dashed $dove-grey;
       padding-bottom: 10px;
     }
 
     img {
       max-width: 100%;
-      border: 1px solid #b5e853;
+      border: 1px solid $conifer;
       margin: 20px 0;
     }
   }
@@ -378,7 +490,7 @@ a.project-mini-card {
 
     img {
       max-width: 100%;
-      border: 1px solid #b5e853;
+      border: 1px solid $conifer;
       border-radius: 4px;
       margin: 15px 0;
     }
@@ -389,7 +501,7 @@ a.project-mini-card {
 
     img {
       max-width: 100%;
-      border: 1px solid #b5e853;
+      border: 1px solid $conifer;
       border-radius: 4px;
     }
   }
@@ -397,10 +509,10 @@ a.project-mini-card {
   .project-footer {
     margin-top: 30px;
     padding-top: 20px;
-    border-top: 1px dashed #666;
+    border-top: 1px dashed $dove-grey;
 
     a {
-      color: #b5e853;
+      color: $conifer;
 
       &:hover {
         color: #d4ff6e;
@@ -420,7 +532,7 @@ a.project-mini-card {
 }
 
 .typewriter-cursor {
-  color: #b5e853;
+  color: $conifer;
   font-weight: normal;
   animation: cursor-blink 0.7s infinite;
 }
@@ -432,17 +544,20 @@ a.project-mini-card {
 
 /* Easter Egg Hidden Log */
 .easter-egg-trigger {
-  display: inline-block;
-  margin-top: 40px;
+  display: block;
+  margin: 40px auto 0;
   padding: 5px 10px;
-  color: #555;
+  color: $gray-border;
   font-size: 12px;
   font-family: Monaco, monospace;
   cursor: pointer;
   transition: color 0.3s ease;
+  background: none;
+  border: none;
+  text-align: center;
 
   &:hover {
-    color: #b5e853;
+    color: $conifer;
     text-decoration: none;
   }
 }
@@ -468,41 +583,117 @@ pre.hidden-log {
   }
 }
 
-/* WHOAMI Footer CTA */
-.whoami-cta {
+/* WHOAMI Navigation */
+.whoami-nav {
+  margin-bottom: 1.5em;
+  padding: 0.6em 1em;
+  background: rgba($conifer, 0.05);
+  border: 1px solid $gray-darkest;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.5em 1.25em;
+  justify-content: center;
+
+  @media (max-width: $breakpoint-phone-lg) {
+    gap: 0.5em 1em;
+    padding: 0.5em 0.75em;
+  }
+
+  a {
+    padding: 6px 0;
+    font-size: 14px;
+    white-space: nowrap;
+
+    @media (max-width: $breakpoint-phone-lg) {
+      font-size: 13px;
+      padding: 4px 0;
+    }
+
+    @media (max-width: $breakpoint-phone-sm) {
+      font-size: 12px;
+    }
+  }
+}
+
+/* Global Site Footer */
+.site-footer {
   margin-top: 50px;
-  padding-top: 30px;
-  border-top: 1px dashed #b5e853;
+  padding: 25px 0 40px;
+  border-top: 1px dashed $conifer;
   text-align: center;
 
-  .cta-text {
-    color: #888;
-    margin-bottom: 20px;
-    font-size: 14px;
+  @media (max-width: $breakpoint-phone-lg) {
+    margin-top: 30px;
+    padding: 20px 0 30px;
   }
 
-  .cta-buttons {
+  .footer-content {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .footer-text {
+    color: $dove-grey;
+    margin-bottom: 15px;
+    font-size: 13px;
+
+    @media (max-width: $breakpoint-phone-sm) {
+      font-size: 12px;
+      margin-bottom: 12px;
+    }
+  }
+
+  .social-links {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
+    gap: 12px;
+
+    @media (max-width: $breakpoint-phone-sm) {
+      gap: 8px;
+    }
   }
 
-  .cta-btn {
-    display: inline-block;
-    padding: 10px 25px;
-    background: rgba(181, 232, 83, 0.1);
-    border: 1px solid #b5e853;
-    color: #b5e853;
+  .social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    background: rgba($conifer, 0.05);
+    border: 1px solid $gray-dark;
+    border-radius: 4px;
+    color: $conifer;
     text-decoration: none;
-    font-family: Monaco, monospace;
-    font-size: 14px;
-    transition: all 0.3s ease;
+    font-size: 12px;
+    transition: all 0.2s ease;
+
+    svg {
+      flex-shrink: 0;
+    }
 
     &:hover {
-      background: rgba(181, 232, 83, 0.2);
-      box-shadow: 0 0 15px rgba(181, 232, 83, 0.3);
-      color: #d4ff6e;
+      background: rgba($conifer, 0.15);
+      border-color: $conifer;
+      box-shadow: 0 0 10px rgba($conifer, 0.2);
+    }
+
+    @media (max-width: $breakpoint-phone-sm) {
+      padding: 6px 10px;
+      font-size: 11px;
+      gap: 4px;
+
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+
+      span {
+        display: none;
+      }
+    }
+
+    @media (max-width: 360px) {
+      padding: 8px;
     }
   }
 }
