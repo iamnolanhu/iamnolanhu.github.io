@@ -180,7 +180,7 @@ A journey through code, competitions, and community.
 </div>
 
 <div class="timeline-item">
-  <span class="timeline-year">2023</span>
+  <span class="timeline-year">2025</span>
   <div class="timeline-dot"></div>
   <div class="timeline-content">
     <h4>Founded Sigma Synapses</h4>
