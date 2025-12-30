@@ -16,6 +16,12 @@
   font-size: 12px;
   border-radius: 3px;
 
+  @media (max-width: $breakpoint-tablet) {
+    padding: 1px 5px;
+    margin-right: 3px;
+    font-size: 10px;
+  }
+
   &--mini {
     border-color: $gray-border;
     color: $gray-medium;
@@ -217,6 +223,7 @@ header {
     margin-bottom: 30px;
     border-bottom: 1px dashed $conifer;
     padding-bottom: 20px;
+    text-align: center;
   }
 
   .post-title {
@@ -426,9 +433,10 @@ a.project-mini-card {
 /* Project Detail Page */
 .project {
   .project-header {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     border-bottom: 1px dashed $conifer;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
   }
 
   .project-title {
@@ -453,18 +461,27 @@ a.project-mini-card {
   }
 
   .project-links {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 
     .btn {
       margin-right: 10px;
+
+      @media (max-width: $breakpoint-tablet) {
+        padding: 5px 10px;
+        font-size: 12px;
+        min-height: 32px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+      }
     }
   }
 
   .project-content {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     h2 {
-      margin-top: 30px;
+      margin-top: 20px;
       border-bottom: 1px dashed $dove-grey;
       padding-bottom: 10px;
     }
@@ -478,10 +495,42 @@ a.project-mini-card {
 
   .project-image {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 0;
 
     img {
       max-width: 200px;
+      margin: 0;
+
+      @media (max-width: $breakpoint-tablet) {
+        max-width: 120px;
+      }
+    }
+
+    &.wide img {
+      max-width: 400px;
+      width: 100%;
+
+      @media (max-width: $breakpoint-tablet) {
+        max-width: 250px;
+      }
+    }
+
+    // ASCII art mode - half width + green text
+    &.ascii-mode {
+      .highlighter-rouge {
+        display: inline-block;
+        max-width: 50%;
+        margin: 0;
+      }
+
+      pre.highlight {
+        margin: 0;
+      }
+
+      pre.highlight code {
+        color: $conifer;
+        text-shadow: 0 0 8px rgba($conifer, 0.5);
+      }
     }
   }
 
@@ -694,6 +743,40 @@ pre.hidden-log {
 
     @media (max-width: 360px) {
       padding: 8px;
+    }
+  }
+}
+
+// Press Photos
+.press-photo {
+  margin: 20px auto;
+  padding: 0;
+  max-width: 500px;
+  text-align: center;
+
+  img {
+    width: 85%;
+    max-width: 100%;
+    border-radius: 4px;
+    border: 1px solid $conifer;
+    display: block;
+    margin: 0 auto;
+  }
+
+  figcaption {
+    margin-top: 10px;
+    font-size: 0.85em;
+    color: $gray-light;
+    font-style: italic;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+    max-width: 80%;
+
+    img {
+      width: 100%;
     }
   }
 }
