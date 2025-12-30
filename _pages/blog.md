@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Blog
+title: "Blog | Nolan Hu - AI, Automation & Engineering Insights"
+description: "Technical articles on AI automation, RAG architecture, Python development, and lessons from building production applications. Written by an NYC-based engineer."
 permalink: /blog/
 ---
 

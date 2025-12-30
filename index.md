@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Nolan Hu | AI Automation Engineer & Full-Stack Developer in NYC"
+description: "AI automation specialist building RAG-powered solutions. 10+ years in financial services at JPMorgan, HSBC, BNY Mellon. Hackathon winner. Available for consulting."
+image: /assets/images/og-default.png
 ---
 
 <!-- ![Profile Picture](/assets/images/profile-pic.png){:height="25%" width="25%" style="display: block; margin: auto;" } -->

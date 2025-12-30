@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Career
+title: "Career | Nolan Hu - AI Engineer, Data Scientist & Security Analyst"
+description: "10+ years in financial services: JPMorgan Chase, HSBC, BNY Mellon. Python, RAG architecture, cybersecurity. Now building AI automation at Sigma Synapses."
 permalink: /whoami/career/
 ---
 
