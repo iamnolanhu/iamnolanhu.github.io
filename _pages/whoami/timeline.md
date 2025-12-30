@@ -79,14 +79,79 @@ permalink: /whoami/timeline/
   margin-right: 5px;
   margin-top: 8px;
 }
+
+/* Mobile: Simplified timeline layout */
+@media (max-width: 640px) {
+  .timeline::before {
+    left: 15px;
+  }
+
+  .timeline-item {
+    padding-left: 40px;
+  }
+
+  .timeline-year {
+    position: relative;
+    left: 0;
+    width: auto;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+  }
+
+  .timeline-dot {
+    left: 9px;
+    top: 0;
+    width: 12px;
+    height: 12px;
+  }
+
+  .timeline-content {
+    padding: 12px 15px;
+  }
+
+  .timeline-content h4 {
+    font-size: 0.95em;
+    line-height: 1.3;
+  }
+
+  .timeline-content p {
+    font-size: 0.85em;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-item {
+    padding-left: 30px;
+    margin-bottom: 20px;
+  }
+
+  .timeline-dot {
+    left: 4px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .timeline-content {
+    padding: 10px 12px;
+  }
+
+  .timeline-tag {
+    font-size: 0.7em;
+    padding: 2px 6px;
+  }
+}
 </style>
 
 <h1 class="page-title" data-text="./ 0xTimeline"></h1>
 
-<div class="whoami-nav" style="margin-bottom: 2em; padding: 1em; background: rgba(181, 232, 83, 0.05); border: 1px solid #333; border-radius: 4px;">
-  <a href="{{ '/whoami/' | relative_url }}" style="margin-right: 1.5em;">0xWHOAMI</a>
-  <a href="{{ '/whoami/career/' | relative_url }}" style="margin-right: 1.5em;">0xCareer</a>
-  <a href="{{ '/whoami/timeline/' | relative_url }}" style="margin-right: 1.5em;">0xTimeline</a>
+<div class="whoami-nav">
+  <a href="{{ '/whoami/career/' | relative_url }}">0xCareer</a>
+  <a href="{{ '/whoami/timeline/' | relative_url }}">0xTimeline</a>
   <a href="{{ '/whoami/press/' | relative_url }}">0xPress</a>
 </div>
 
