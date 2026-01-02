@@ -60,8 +60,8 @@ TwelveSocial leverages AI to automatically identify the most engaging moments in
 <div class="team-section">
 <img src="https://raw.githubusercontent.com/danschewy/twelvesocial/cleanup/public/assets/Team-Photo.png" alt="TwelveSocial Team">
 <p>
-<strong>Daniel Gildenbrand</strong> (<a href="https://github.com/danschewy" target="_blank" rel="noopener noreferrer">@danschewy</a>) &
-<strong>Nolan Hu</strong> (<a href="https://github.com/iamnolanhu" target="_blank" rel="noopener noreferrer">@iamnolanhu</a>)
+<a href="https://danbrand.nyc" target="_blank" rel="noopener noreferrer"><strong>Daniel Gildenbrand</strong></a> &
+<a href="https://x.com/nolanhu" target="_blank" rel="noopener noreferrer"><strong>Nolan Hu</strong></a>
 </p>
 <p>Winners of "Best Use of DigitalOcean" at Hacking Agents Hackathon NYC</p>
 </div>

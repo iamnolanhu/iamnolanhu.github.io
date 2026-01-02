@@ -26,7 +26,7 @@ Won "Best Use of DigitalOcean" at the Hacking with Agents Hackathon NYC for Twel
 
 <figure class="press-photo">
   <img src="{{ '/assets/images/whoami/press/hacking-agents-2025/twelvesocial-2025.png' | relative_url }}" alt="TwelveSocial team receiving Best Use of DigitalOcean award">
-  <figcaption>Receiving the Best Use of DigitalOcean award with Amit Jotwani (DigitalOcean)</figcaption>
+  <figcaption><a href="https://danbrand.nyc" target="_blank" rel="noopener noreferrer">Daniel Gildenbrand</a>, <a href="https://x.com/amit" target="_blank" rel="noopener noreferrer">Amit Jotwani</a> (DigitalOcean), and <a href="https://x.com/nolanhu" target="_blank" rel="noopener noreferrer">Nolan Hu</a> receiving the Best Use of DigitalOcean award</figcaption>
 </figure>
 
 <a href="https://www.linkedin.com/pulse/hacking-agents-hackathon-nyc-winners-showcase-langflow-ccbif" target="_blank" rel="noopener noreferrer">Read Article →</a> &#124; <a href="{{ '/whoami/press/hacking-agents-2025/' | relative_url }}">View Archive →</a>
