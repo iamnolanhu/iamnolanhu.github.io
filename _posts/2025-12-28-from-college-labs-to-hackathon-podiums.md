@@ -20,6 +20,10 @@ Here's the thing. When DigitalOcean launched their Gradient AI platform, I was i
 
 The MLH × DigitalOcean hackathon was intense. Over 130 participants filled ZeroSpace, this cold warehouse space bathed in blue projector lights. Hacking kicked off at 7 pm on Friday, but here's the catch: ZeroSpace closed at 10 pm and didn't reopen until Saturday morning.
 
+<div class="tweet-embed">
+<blockquote class="twitter-tweet" data-dnt="true" data-theme="dark"><p lang="en" dir="ltr">Excited to be hacking at another <a href="https://twitter.com/digitalocean?ref_src=twsrc%5Etfw">@digitalocean</a> hackathon this year and trying their GradientAI platform. <br><br>And its great to see some familiar faces <a href="https://twitter.com/amit?ref_src=twsrc%5Etfw">@amit</a>! <a href="https://t.co/1ugeFyhDmB">pic.twitter.com/1ugeFyhDmB</a></p>&mdash; Nolan (@nolanhu) <a href="https://twitter.com/nolanhu/status/1999631995174084755?ref_src=twsrc%5Etfw">December 13, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
 So I headed home. And I didn't sleep.
 
 I stayed up the entire night, running on nothing but adrenaline and caffeinated tea, trying to manifest my idea as fast as possible. During those sleepless hours I built SharkByte Support, an app that transforms any website into an AI-powered support agent.
