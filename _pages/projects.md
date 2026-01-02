@@ -122,3 +122,7 @@ permalink: /projects/
 </a>
 
 </div>
+
+<div style="text-align: center; margin-top: 2em;">
+  <a href="{{ '/resources/' | relative_url }}">View Resources & Downloads →</a>
+</div>

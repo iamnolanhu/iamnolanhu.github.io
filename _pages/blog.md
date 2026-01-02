@@ -19,3 +19,7 @@ permalink: /blog/
 {% else %}
 <p>No posts yet. Check back soon!</p>
 {% endif %}
+
+<div style="text-align: center; margin-top: 2em;">
+  <a href="{{ '/blog/archive/' | relative_url }}">View Archive (2014-2015) →</a>
+</div>

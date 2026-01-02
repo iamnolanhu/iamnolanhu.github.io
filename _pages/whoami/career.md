@@ -88,3 +88,7 @@ I architect and deploy AI-powered solutions using Retrieval Augmented Generation
 New York City College of Technology — GPA: 3.5
 - Honor's Scholar Program Member
 - Dean's List: Spring 2013, Spring 2015
+
+<div class="text-center mt-2">
+  <a href="{{ '/whoami/' | relative_url }}">← Back to WHOAMI</a>
+</div>
