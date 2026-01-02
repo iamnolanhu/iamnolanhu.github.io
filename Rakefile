@@ -53,6 +53,11 @@ task :serve_secrets => :sync_images do
   sh 'bundle exec jekyll serve --config _config.yml,_config_secrets.yml'
 end
 
+desc 'Sync images and serve with drafts visible'
+task :serve_drafts => :sync_images do
+  sh 'bundle exec jekyll serve --drafts'
+end
+
 # Helper: Create directory with .gitkeep if it doesn't exist
 def ensure_dir(path)
   unless Dir.exist?(path)

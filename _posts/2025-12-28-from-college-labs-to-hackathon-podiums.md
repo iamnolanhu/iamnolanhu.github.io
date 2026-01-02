@@ -28,6 +28,11 @@ Here's how it works. You enter a URL. SharkByte crawls your site and extracts ke
 
 The interface is deliberately simple: a single input box on the homepage, light/dark/ocean themes, and a mobile-friendly chat UI. Under the hood it's built with Next.js 16, React 19, Tailwind CSS and shadcn/ui. All technologies I'd learned during late nights on DigitalOcean droplets.
 
+<div class="screenshot">
+  <img src="{{ '/assets/images/projects/sharkbyte-support/sharkbyte-homepage.png' | relative_url }}" alt="SharkByte Support homepage with URL input">
+  <p><em>SharkByte's homepage—paste a URL and instantly create an AI support agent</em></p>
+</div>
+
 ## Overcoming challenges
 
 Building SharkByte in a day wasn't easy. Coordinating asynchronous workflows (scraping content, creating knowledge bases, configuring agents) was tricky. I also spent time crafting system prompts so that Sammy the Shark, DigitalOcean's mascot whom I've seen frequently over the past decade, would stay helpful and on-brand. The simplicity of the UX hides significant complexity. And honestly, I'm proud of how polished the final product feels.
@@ -39,6 +44,11 @@ The next day, I didn't show up until the very end. Almost every team had already
 Then they announced the winners.
 
 When they called SharkByte Support, I was in disbelief. I'd barely made the cutoff. I thought nobody was even paying attention to my presentation. But SharkByte won 3rd place for Best Use of DigitalOcean Gradient AI. I hope I made DO proud by creating an app that really showcases the Gradient AI platform and their beloved mascot Sammy.
+
+<div class="screenshot">
+  <img src="{{ '/assets/images/projects/sharkbyte-support/hackathon-3rd-place.webp' | relative_url }}" alt="Nolan Hu receiving 3rd place award for SharkByte Support">
+  <p><em>Receiving the 3rd place award for Best Use of DigitalOcean Gradient AI</em></p>
+</div>
 
 ## Two DigitalOcean wins in one year
 
