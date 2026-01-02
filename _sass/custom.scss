@@ -976,3 +976,38 @@ pre.hidden-log {
     }
   }
 }
+
+// Draft badge for unpublished posts
+.draft-badge {
+  background: #ff6b6b;
+  color: #151515;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.5em;
+  font-weight: bold;
+  margin-left: 10px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+// Global screenshot class (for use outside project pages)
+.screenshot {
+  margin: 20px auto;
+  text-align: center;
+
+  img {
+    max-width: 70%;
+    border: 1px solid $conifer;
+    border-radius: 4px;
+
+    @media (max-width: $breakpoint-tablet) {
+      max-width: 100%;
+    }
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 0.85em;
+    color: $gray-light;
+  }
+}

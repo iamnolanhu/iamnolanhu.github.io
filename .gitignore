@@ -8,3 +8,4 @@ _config_secrets.yml
 /.secrets
 CLAUDE.md
 .claude/
+_drafts/
