@@ -19,6 +19,11 @@ achievement: "// World's Largest Bolt Hackathon"
 
 Based Sigma is an AI-powered startup builder designed for solo entrepreneurs who prefer quiet execution over hype. It guides users from concept to launch through a unified chatbot interface, automating the entire startup creation process.
 
+<div class="screenshot">
+  <img src="{{ '/assets/images/projects/based-sigma/homepage.jpg' | relative_url }}" alt="Based Sigma homepage">
+  <p><em>AI business automation for sigmas - from zero to CEO while you sleep</em></p>
+</div>
+
 ## The 5 Modules
 
 Based Sigma automates startup creation across five key areas:
@@ -63,10 +68,15 @@ We built Based Sigma for "the founder in the shadows" - the stealth builders who
 
 ## The Team
 
-- **Apoorva Mahajan** - MVP/Product
-- **Nolan Hu** - Development
-- **Brian Cordova** - Development
-- **Suzanna Lam** - Design/Frontend
+<div class="screenshot">
+  <img src="{{ '/assets/images/projects/based-sigma/team.png' | relative_url }}" alt="Team Sigma">
+  <p><em>Meet the absolute legends building the future of business automation</em></p>
+</div>
+
+- **[Nolan Hu](https://x.com/its_nolan_hu){:target="_blank" rel="noopener noreferrer"}** - Based Dev - Puts the "based" in Based Sigma. Architect of systems that just work.
+- **[Apoorva](https://x.com/ApoorvaM94){:target="_blank" rel="noopener noreferrer"}** - Product Designer & Front-End Sigma - The product designer who sees opportunities where others see problems.
+- **[Brian Cardova](https://x.com/honeybdot){:target="_blank" rel="noopener noreferrer"}** - Marketing Wizard - Spreads Sigma energy worldwide through marketing and content creation.
+- **[Suzanna Codes](https://x.com/CodesSuzy){:target="_blank" rel="noopener noreferrer"}** - Designer & Front-End Developer - A sigma designer obsessed with coffee and making websites. Based in Toronto!
 
 ## Built At
 

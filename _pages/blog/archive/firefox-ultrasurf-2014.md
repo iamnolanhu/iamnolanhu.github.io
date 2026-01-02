@@ -23,7 +23,7 @@ When you install the program, just make sure you install it into your flashdrive
   <img src="http://2.bp.blogspot.com/-RIv_uoqpfDM/Ta79MXCuXnI/AAAAAAAAADU/NY_wT-DT-n4/s320/ff2.PNG" alt="Firefox Portable executable">
 </figure>
 
-Now go to <a href="http://www.ultrareach.com/" target="_blank" rel="noopener noreferrer">http://www.ultrareach.com/</a> to download my favorite proxy! You want to save it into your USB flashdrive so you can have the .zip folder. A better idea is to save it in the FirefoxPortable folder on your USB flashdrive so you can have everything in one place. Once you have downloaded the file, all you have to do is open the .zip folder and execute the u1008.exe application.
+Now go to <a href="https://ultrasurf.us/" target="_blank" rel="noopener noreferrer">https://ultrasurf.us/</a> to download my favorite proxy! *(Note: Link updated - the original ultrareach.com domain is no longer valid)* You want to save it into your USB flashdrive so you can have the .zip folder. A better idea is to save it in the FirefoxPortable folder on your USB flashdrive so you can have everything in one place. Once you have downloaded the file, all you have to do is open the .zip folder and execute the u1008.exe application.
 
 <figure class="archive-figure">
   <img src="http://2.bp.blogspot.com/-Mcx5dLsowHg/Ta7-n4uykPI/AAAAAAAAADY/6UqyVr6XgxE/s320/ff3.PNG" alt="Ultrasurf download">
