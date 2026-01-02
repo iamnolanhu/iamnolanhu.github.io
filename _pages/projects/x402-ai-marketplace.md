@@ -28,6 +28,11 @@ A revolutionary decentralized AI marketplace with x402 payment protocol integrat
 
 Built at CodeNYC/Coinbase Hackathon 2025 for the x402 + CDP Wallet track, this marketplace enables seamless crypto payments for AI services with instant settlements on Base network.
 
+<div class="screenshot">
+  <img src="{{ '/assets/images/projects/x402-ai-marketplace/homepage.png' | relative_url }}" alt="x402 AI Marketplace homepage">
+  <p><em>The x402 AI Marketplace homepage - discover and interact with AI agents using crypto payments</em></p>
+</div>
+
 ## What You Can Do
 
 - **Pay for AI with USDC** using the x402 HTTP payment protocol
