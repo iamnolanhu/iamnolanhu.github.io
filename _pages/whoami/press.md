@@ -29,7 +29,9 @@ Won "Best Use of DigitalOcean" at the Hacking with Agents Hackathon NYC for Twel
   <figcaption><a href="https://danbrand.nyc" target="_blank" rel="noopener noreferrer">Daniel Gildenbrand</a>, <a href="https://x.com/amit" target="_blank" rel="noopener noreferrer">Amit Jotwani</a> (DigitalOcean), and <a href="https://x.com/nolanhu" target="_blank" rel="noopener noreferrer">Nolan Hu</a> receiving the Best Use of DigitalOcean award</figcaption>
 </figure>
 
-<a href="https://www.linkedin.com/pulse/hacking-agents-hackathon-nyc-winners-showcase-langflow-ccbif" target="_blank" rel="noopener noreferrer">Read Article →</a> &#124; <a href="{{ '/whoami/press/hacking-agents-2025/' | relative_url }}">View Archive →</a>
+<div class="text-center">
+  <a href="https://www.linkedin.com/pulse/hacking-agents-hackathon-nyc-winners-showcase-langflow-ccbif" target="_blank" rel="noopener noreferrer">Read Article →</a> &#124; <a href="{{ '/whoami/press/hacking-agents-2025/' | relative_url }}">View Archive →</a>
+</div>
 
 ---
 
@@ -45,7 +47,9 @@ Attended ShmooCon, the annual East Coast hacker convention, on a Shmooze-a-Stude
   <figcaption>With Bruce Potter (ShmooCon founder) and fellow scholarship recipients at ShmooCon 2015</figcaption>
 </figure>
 
-<a href="https://seidenbergnews.blogs.pace.edu/2015/02/13/2776/" target="_blank" rel="noopener noreferrer">Read Article →</a> &#124; <a href="{{ '/whoami/press/shmocon-2015/' | relative_url }}">View Archive →</a>
+<div class="text-center">
+  <a href="https://seidenbergnews.blogs.pace.edu/2015/02/13/2776/" target="_blank" rel="noopener noreferrer">Read Article →</a> &#124; <a href="{{ '/whoami/press/shmocon-2015/' | relative_url }}">View Archive →</a>
+</div>
 
 ### City Tech Honors Scholars
 **CUNY New York City College of Technology**
@@ -57,7 +61,9 @@ Featured on Page 10 as Vice President of the Computer Information Association (C
   <figcaption>Collaborating in the Computer Information Association (CIA) at City Tech</figcaption>
 </figure>
 
-<a href="https://honors.citytech.cuny.edu/wp-content/uploads/2018/08/Scholars_Vol3Iss2.pdf" target="_blank" rel="noopener noreferrer">View Publication (PDF) →</a> &#124; <a href="{{ '/whoami/press/citytech-scholars-2015/' | relative_url }}">View Archive →</a>
+<div class="text-center">
+  <a href="https://honors.citytech.cuny.edu/wp-content/uploads/2018/08/Scholars_Vol3Iss2.pdf" target="_blank" rel="noopener noreferrer">View Publication (PDF) →</a> &#124; <a href="{{ '/whoami/press/citytech-scholars-2015/' | relative_url }}">View Archive →</a>
+</div>
 
 
 ---
@@ -74,7 +80,9 @@ Won the Beamly Challenge at the NBC Comcast Universal Hackathon with a Chrome ex
   <figcaption>Hacking together with the team on the Beamly Challenge</figcaption>
 </figure>
 
-<a href="https://corporate.comcast.com/news-information/news-feed/comcast-and-nbcuniversal-drive-next-gen-storytelling-at-technology-hackathon" target="_blank" rel="noopener noreferrer">Read Article →</a> &#124; <a href="{{ '/whoami/press/nbc-hackathon-2014/' | relative_url }}">View Archive →</a>
+<div class="text-center">
+  <a href="https://corporate.comcast.com/news-information/news-feed/comcast-and-nbcuniversal-drive-next-gen-storytelling-at-technology-hackathon" target="_blank" rel="noopener noreferrer">Read Article →</a> &#124; <a href="{{ '/whoami/press/nbc-hackathon-2014/' | relative_url }}">View Archive →</a>
+</div>
 
 ### CSAW Cyber Security Awareness Week — DHS Quiz 3rd Place
 **NYU Tandon School of Engineering**
@@ -86,4 +94,10 @@ Team Catbug placed 3rd in the Department of Homeland Security Quiz at CSAW, the 
   <figcaption>Team Catbug competing at CSAW 2014</figcaption>
 </figure>
 
-<a href="https://engineering.nyu.edu/news/worlds-biggest-student-cyber-security-contests-reveal-best-young-hackers-and-researchers" target="_blank" rel="noopener noreferrer">Read Article →</a> &#124; <a href="{{ '/whoami/press/csaw-2014/' | relative_url }}">View Archive →</a>
+<div class="text-center">
+  <a href="https://engineering.nyu.edu/news/worlds-biggest-student-cyber-security-contests-reveal-best-young-hackers-and-researchers" target="_blank" rel="noopener noreferrer">Read Article →</a> &#124; <a href="{{ '/whoami/press/csaw-2014/' | relative_url }}">View Archive →</a>
+</div>
+
+<div class="text-center mt-2">
+  <a href="{{ '/whoami/' | relative_url }}">← Back to WHOAMI</a>
+</div>

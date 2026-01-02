@@ -5,7 +5,7 @@ description: "Archived article about attending ShmooCon on a Shmooze-a-Student S
 permalink: /whoami/press/shmocon-2015/
 ---
 
-<h1 class="page-title" data-text="./Archive"></h1>
+<h1 class="page-title" data-text="./ 0xArchive"></h1>
 
 <p class="archive-notice">
   <em>Archived from <a href="https://seidenbergnews.blogs.pace.edu/2015/02/13/2776/" target="_blank" rel="noopener noreferrer">Pace University Seidenberg News</a> on December 30, 2025</em>
@@ -40,9 +40,12 @@ If you need a wonderful starter event as your first, this should be the one. You
 
 If anyone has any questions please feel free to reach out to the ShmooGroup at info@shmoocon.org. We also offer more opportunities for conference scholarships!
 
----
+<figure class="press-photo">
+  <img src="{{ '/assets/images/whoami/press/shmocon-2015/media3-1.jpg' | relative_url }}" alt="Posing with the Shmoo mascot at ShmooCon 2015">
+  <figcaption>Posing with the Shmoo mascot at ShmooCon 2015</figcaption>
+</figure>
 
-<div style="display: flex; justify-content: space-between;">
+<div class="flex-between">
   <a href="{{ '/whoami/press/' | relative_url }}">← Back to Press</a>
   <a href="{{ '/assets/images/whoami/press/shmocon-2015/snapshot.png' | relative_url }}" target="_blank">View Original Snapshot →</a>
 </div>

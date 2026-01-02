@@ -5,7 +5,7 @@ description: "Archived article about winning the Beamly Challenge at the NBC Com
 permalink: /whoami/press/nbc-hackathon-2014/
 ---
 
-<h1 class="page-title" data-text="./Archive"></h1>
+<h1 class="page-title" data-text="./ 0xArchive"></h1>
 
 <p class="archive-notice">
   <em>Archived from <a href="https://corporate.comcast.com/news-information/news-feed/comcast-and-nbcuniversal-drive-next-gen-storytelling-at-technology-hackathon" target="_blank" rel="noopener noreferrer">Comcast Corporate</a> on December 30, 2025</em>
@@ -42,9 +42,12 @@ Judges – including venture capitalists, tech influencers, and Comcast and NBCU
 
 Additional information can be found at http://nbcumediahacks.com/hackathon/
 
----
+<figure class="press-photo">
+  <img src="{{ '/assets/images/whoami/press/nbc-hackathon-2014/presentation.jpg' | relative_url }}" alt="Team presenting at NBC Comcast Universal Hackathon 2014">
+  <figcaption>Presenting our Beamly Challenge submission on stage</figcaption>
+</figure>
 
-<div style="display: flex; justify-content: space-between;">
+<div class="flex-between">
   <a href="{{ '/whoami/press/' | relative_url }}">← Back to Press</a>
   <a href="{{ '/assets/images/whoami/press/nbc-hackathon-2014/snapshot.png' | relative_url }}" target="_blank">View Original Snapshot →</a>
 </div>

@@ -5,7 +5,7 @@ description: "Archived article about winning Best Use of DigitalOcean at the Hac
 permalink: /whoami/press/hacking-agents-2025/
 ---
 
-<h1 class="page-title" data-text="./Archive"></h1>
+<h1 class="page-title" data-text="./ 0xArchive"></h1>
 
 <p class="archive-notice">
   <em>Archived from <a href="https://www.linkedin.com/pulse/hacking-agents-hackathon-nyc-winners-showcase-langflow-ccbif" target="_blank" rel="noopener noreferrer">LinkedIn/Langflow</a> on December 30, 2025</em>
@@ -50,7 +50,7 @@ Parses board game rules and provides setup instructions plus strategic advice fo
 
 ---
 
-<div style="display: flex; justify-content: space-between;">
+<div class="flex-between">
   <a href="{{ '/whoami/press/' | relative_url }}">← Back to Press</a>
   <a href="{{ '/assets/images/whoami/press/hacking-agents-2025/snapshot.png' | relative_url }}" target="_blank">View Original Snapshot →</a>
 </div>

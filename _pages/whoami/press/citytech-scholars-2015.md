@@ -5,7 +5,7 @@ description: "Archived article about the Computer Information Association at Cit
 permalink: /whoami/press/citytech-scholars-2015/
 ---
 
-<h1 class="page-title" data-text="./Archive"></h1>
+<h1 class="page-title" data-text="./ 0xArchive"></h1>
 
 <p class="archive-notice">
   <em>Archived from <a href="https://honors.citytech.cuny.edu/wp-content/uploads/2018/08/Scholars_Vol3Iss2.pdf" target="_blank" rel="noopener noreferrer">CUNY City Tech Honors Scholars Publication</a> (Volume 3, Issue 2) on December 30, 2025</em>
@@ -45,7 +45,7 @@ It is our hope the City Tech's CIA has inspired countless members to do incredib
 
 ---
 
-<div style="display: flex; justify-content: space-between;">
+<div class="flex-between">
   <a href="{{ '/whoami/press/' | relative_url }}">← Back to Press</a>
   <a href="{{ '/assets/images/whoami/press/citytech-scholars-2015/publication.pdf' | relative_url }}" target="_blank">View Original Publication (PDF) →</a>
 </div>
