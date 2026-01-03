@@ -21,5 +21,5 @@ permalink: /blog/
 {% endif %}
 
 <div style="text-align: center; margin-top: 2em;">
-  <a href="{{ '/blog/archive/' | relative_url }}">View Archive (2014-2015) →</a>
+  <a href="{{ '/blog/archive/' | relative_url }}">View Archive (2011-2015) →</a>
 </div>

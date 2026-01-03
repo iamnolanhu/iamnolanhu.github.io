@@ -9,3 +9,4 @@ _config_secrets.yml
 CLAUDE.md
 .claude/
 _drafts/
+.serena/
