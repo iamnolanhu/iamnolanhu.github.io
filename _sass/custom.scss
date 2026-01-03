@@ -211,6 +211,35 @@ header {
   }
 }
 
+// Archive listing cards
+.archive-entry {
+  border-left: 3px solid $conifer;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba($conifer, 0.08);
+    border-left-width: 5px;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin-bottom: 0;
+    color: $gray-light;
+  }
+
+  em {
+    color: $dove-grey;
+    font-size: 0.9em;
+  }
+}
+
 /* Page titles get ./ prefix */
 #main_content > h1:first-child:before {
   content: "./ ";
