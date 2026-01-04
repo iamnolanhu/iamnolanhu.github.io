@@ -1051,3 +1051,62 @@ pre.hidden-log {
     color: $gray-light;
   }
 }
+
+// Homepage family image
+.home-family {
+  display: block;
+  margin: 1.5em auto 2em;
+  max-width: 35%;
+  border-radius: 8px;
+  border: 2px solid rgba($conifer, 0.4);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+  @media (max-width: $breakpoint-tablet) {
+    max-width: 60%;
+  }
+
+  @media (max-width: $breakpoint-phone-sm) {
+    max-width: 75%;
+  }
+}
+
+// Homepage explore navigation
+.home-explore {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 2em 0;
+
+  @media (max-width: $breakpoint-tablet) {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+.home-explore-card {
+  display: block;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid $gray-dark;
+  border-left: 3px solid $conifer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background: rgba($conifer, 0.1);
+    border-color: $conifer;
+    box-shadow: 0 0 15px rgba($conifer, 0.2);
+  }
+
+  h3 {
+    margin: 0 0 8px 0;
+    color: $conifer;
+    font-size: 1.1em;
+  }
+
+  p {
+    margin: 0;
+    color: $gray-light;
+    font-size: 0.9em;
+  }
+}

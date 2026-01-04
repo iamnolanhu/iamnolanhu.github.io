@@ -46,7 +46,15 @@ I architect and deploy AI-powered solutions using Retrieval Augmented Generation
 - Enhanced Exit Survey analytics using NLP to identify attrition drivers
 - Developed Java POC integrating Apache Spark with real-time monitoring fabric
 
-**Globe Language Services** — IT Administrator
+**Acadaca** — Security Operations Intern
+- Conducted penetration tests on web applications and internal network infrastructure
+- Delivered tailored security assessment reports with actionable remediation recommendations
+
+**ReadyGraph** — Developer Intern
+- Resolved customer support tickets and maintained WordPress plugin functionality
+- Performed bug testing and quality assurance for growth marketing platform
+
+**Globe Language Services** — IT Administrator *(returned 2015)*
 - Sole IT resource for 20+ employees, maintaining 99% uptime
 - Designed Windows Server environment with Active Directory and Group Policy
 

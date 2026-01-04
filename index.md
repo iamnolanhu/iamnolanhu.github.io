@@ -1,59 +1,37 @@
 ---
 layout: default
-title: "Nolan Hu | AI Automation Engineer & Full-Stack Developer in NYC"
-description: "AI automation specialist building RAG-powered solutions. 10+ years in financial services at JPMorgan, HSBC, BNY Mellon. Hackathon winner. Available for consulting."
+title: "Nolan Hu | Builder, Engineer, Dad"
+description: "AI automation engineer and founder of Sigma Synapses. A decade of building systems that actually work, from JPMorgan to my own thing."
 image: /assets/images/og-default.png
 ---
 
-<!-- ![Profile Picture](/assets/images/profile-pic.png){:height="25%" width="25%" style="display: block; margin: auto;" } -->
-
 <h1 class="page-title" data-text="./ 0xHome"></h1>
 
-Welcome to my corner of the internet! I'm a developer and data professional based in **NYC**, passionate about harnessing technology to solve complex challenges—especially in the realms of **cybersecurity** and **data analytics**. Over the years, I've collaborated with global financial institutions, transforming business requirements into efficient data models, analytical insights, and automation solutions that streamline workflows and mitigate risk.
+Welcome to my corner of the internet. I'm a developer and data professional based in Brooklyn, and I've spent the last decade doing a bit of everything—security, data engineering, automation, and lately, building with AI.
 
-## About Me
+I've never liked doing things the mundane way. If I have to do something more than once, I'm already thinking about how to automate it. That mindset carried me through roles at JPMorgan, HSBC, and BNY Mellon, where I was always looking for ways to make systems smarter and workflows less painful.
 
-I thrive on building scalable data pipelines and performing deep analytics to uncover actionable insights. My experiences range from implementing risk management strategies to architecting resilient data infrastructure. I've been fortunate to work with industry-leading organizations such as BNY Mellon, HSBC, and JPMorgan Chase, where I championed:
+These days I'm obsessed with AI—not the hype, but the actual building. That's why I started <a href="https://sigmasynapses.com" target="_blank" rel="noopener noreferrer">Sigma Synapses</a>, where I help businesses ship AI solutions that actually work in the real world.
 
-- **Automated Cybersecurity Monitoring** to bolster continuous control environments, ensuring robust protective measures.
-- **Data ETL & Pipeline Development** with tools like Hadoop, Spark, and Hive—supercharging analytics efficiency.
-- **Machine Learning & Predictive Analytics** for early detection of account risks and enhanced customer engagement.
-- **Streamlined Reporting** using Python, REST APIs, and cloud services, cutting down data processing times and reducing errors.
+<img src="{{ '/assets/images/home/family-ghibli.png' | relative_url }}" alt="Ghibli-style illustration of my family" class="home-family">
 
-I'm also a **lifelong learner**, immersed in the world of blockchain, decentralized finance (DeFi), and digital transformation. Whether it's Python, Bash scripting, or the latest in big data technologies, I'm always eager to experiment and push the boundaries of what's possible.
-
-## Technical Highlights
-
-- **Languages:** Python, Java, Bash, JavaScript, SQL
-- **Big Data & Cloud:** Hadoop, Spark, Hive, Cassandra, DigitalOcean
-- **Security & OS:** Linux (Ubuntu/Red Hat/Kali), macOS, Windows, Powershell
-- **Other Tools:** Jupyter Notebook, Git, APIs, Docker, Alteryx
-
-I'm **fluent in English and Chinese** (Cantonese & Mandarin) and enjoy mentoring future technologists.
-
-## Projects & Initiatives
-
-1. **Cyber Risk Consequence Model**
-   Drove the design of an automated system for vulnerability monitoring, integrating Python scripts with enterprise APIs to reduce manual overhead and strengthen security posture.
-
-2. **Employee Attrition Pipeline**
-   Engineered an ETL approach to highlight real-time employee attrition signals. This included analyzing structured data via Spark and Hive and visualizing crucial trends to guide retention strategies.
-
-3. **Automated BAU Processes**
-   Leveraged Selenium and Win32 APIs to eliminate repetitive tasks in financial processes, boosting overall productivity.
-
-## Education & Community
-
-I hold a **Bachelor of Technology in Computer Systems Technology** from the New York City College of Technology. Outside of work, you'll find me engaging with local tech meetups, volunteering for youth mentorship programs, or participating in communities for leadership development. I truly believe in giving back and fostering the next generation of innovators.
+Brooklyn-based. Dad. Speaks Cantonese at home. Still uses vim. Believes the best debugging happens after a good night's sleep—though I rarely follow my own advice.
 
 ---
 
-## Let's Connect
+## ./ 0xExplore
 
-Feel free to connect with me on <a href="https://www.linkedin.com/in/nolanhu" target="_blank" rel="noopener noreferrer">LinkedIn</a> for professional connections, or keep an eye on my posts over on <a href="https://x.com/nolanhu" target="_blank" rel="noopener noreferrer">X</a> where I share my thoughts.
-
-You can also reach me via email. I'm always open to collaborating on exciting new projects, discussing data-centric solutions, or simply chatting about emerging technologies.
-
-<div style="text-align: center;">
-  Ad Astra!
+<div class="home-explore">
+  <a href="{{ '/blog/' | relative_url }}" class="home-explore-card">
+    <h3>./ 0xBlog</h3>
+    <p>Hard-won lessons on AI, automation, and building things that work.</p>
+  </a>
+  <a href="{{ '/projects/' | relative_url }}" class="home-explore-card">
+    <h3>./ 0xProjects</h3>
+    <p>Hackathon winners, production apps, and experiments that ship.</p>
+  </a>
+  <a href="{{ '/whoami/' | relative_url }}" class="home-explore-card">
+    <h3>./ 0xWhoami</h3>
+    <p>The full story—career, security cred, and the stuff that doesn't fit on a resume.</p>
+  </a>
 </div>
