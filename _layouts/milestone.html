@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<h1 class="page-title" data-text="./ 0xMilestone"></h1>
+
+<div class="milestone-meta">
+  <span class="milestone-year">{{ page.year }}</span>
+  <span class="milestone-tags">
+    {% for tag in page.tags %}
+    <span class="timeline-tag">{{ tag }}</span>
+    {% endfor %}
+  </span>
+</div>
+
+<h2>{{ page.event_title }}</h2>
+
+{{ content }}
+
+{% if page.related_project or page.related_press or page.related_blog %}
+<hr>
+
+<h2>Related</h2>
+
+<ul>
+{% if page.related_project %}<li><a href="{{ page.related_project | relative_url }}">View Project</a></li>{% endif %}
+{% if page.related_press %}<li><a href="{{ page.related_press | relative_url }}">Press Coverage</a></li>{% endif %}
+{% if page.related_blog %}<li><a href="{{ page.related_blog | relative_url }}">Blog Post</a></li>{% endif %}
+</ul>
+{% endif %}
+
+<div class="flex-between mt-2">
+  <a href="{{ '/whoami/timeline/' | relative_url }}">← Back to Timeline</a>
+</div>

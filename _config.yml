@@ -56,6 +56,13 @@ defaults:
 collections:
   pages:
     output: true
+  milestones:
+    output: true
+    permalink: /whoami/timeline/:slug/
+
+# Timeline feature flags
+timeline:
+  enable_links: false  # Set to true when milestone pages are ready
 
 pages:
   - path: "blog"
