@@ -1161,3 +1161,15 @@ pre.hidden-log {
     font-size: 0.9em;
   }
 }
+
+// Threads embed — stack vertically so the fallback link sits below the card
+.threads-embed {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.threads-embed .threads-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.9em;
+}
