@@ -129,18 +129,14 @@ header {
   border-radius: 50%;
   filter: saturate(0.8) brightness(0.9);
   -webkit-filter: saturate(0.8) brightness(0.9);
-  box-shadow:
-    0 0 15px rgba($conifer, 0.4),
-    0 0 30px rgba($conifer, 0.2);
+  box-shadow: 0 0 15px rgba($conifer, 0.4), 0 0 30px rgba($conifer, 0.2);
   transition: all 0.3s ease;
   cursor: pointer;
 
   &:hover {
     filter: saturate(1) brightness(1) hue-rotate(-10deg);
     -webkit-filter: saturate(1) brightness(1) hue-rotate(-10deg);
-    box-shadow:
-      0 0 20px rgba($conifer, 0.6),
-      0 0 40px rgba($conifer, 0.3);
+    box-shadow: 0 0 20px rgba($conifer, 0.6), 0 0 40px rgba($conifer, 0.3);
     border-color: #d4ff6e;
   }
 
@@ -323,7 +319,7 @@ a.project-card {
   }
 
   .project-icon {
-    font-family: "Monaco", "Courier New", monospace;
+    font-family: 'Monaco', 'Courier New', monospace;
     font-size: 12px;
     color: $conifer;
     margin-bottom: 15px;
@@ -637,14 +633,8 @@ a.project-mini-card {
 }
 
 @keyframes cursor-blink {
-  0%,
-  50% {
-    opacity: 1;
-  }
-  51%,
-  100% {
-    opacity: 0;
-  }
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
 }
 
 /* Easter Egg Hidden Log */
@@ -806,24 +796,11 @@ pre.hidden-log {
 // ===========================================
 // Utility Classes
 // ===========================================
-.text-center {
-  text-align: center;
-}
-.mt-2 {
-  margin-top: 2em;
-}
-.flex-between {
-  display: flex;
-  justify-content: space-between;
-}
-.flex-center {
-  display: flex;
-  justify-content: center;
-}
-.img-bordered {
-  max-width: 100%;
-  border: 1px solid $conifer;
-}
+.text-center { text-align: center; }
+.mt-2 { margin-top: 2em; }
+.flex-between { display: flex; justify-content: space-between; }
+.flex-center { display: flex; justify-content: center; }
+.img-bordered { max-width: 100%; border: 1px solid $conifer; }
 
 // Archive notice warning (red)
 .archive-notice-warning {
@@ -865,7 +842,7 @@ pre.hidden-log {
   padding: 20px 0;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     left: 50px;
     top: 0;
@@ -1084,9 +1061,8 @@ pre.hidden-log {
   }
 }
 
-// Twitter/X and Threads embed styling
-.tweet-embed,
-.threads-embed {
+// Twitter/X embed styling
+.tweet-embed {
   display: flex;
   justify-content: center;
   margin: 20px 0;
