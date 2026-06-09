@@ -11,6 +11,25 @@ permalink: /projects/
 
 <div class="featured-projects">
 
+<a href="{{ '/projects/frtc/' | relative_url }}" class="project-card">
+<div class="project-icon">   ┌───────────────┐
+   │  F R T C      │
+   │  ◉──▶◉──▶◉    │
+   │  │    ╲   │   │
+   │  ◉──▶◉◀──◉    │
+   │ 100% P / R    │
+   └───────────────┘</div>
+<h3>FRTC — Fraud Ring Triage Copilot</h3>
+<p>"Uber for fraud detection." A multi-agent system that autonomously hunts a coordinated fraud ring in 90 days of bank transactions — six specialist agents and an adversarial Skeptic reasoning live over Cognee shared memory. 100% precision and recall.</p>
+<div class="tags-container">
+<span class="tech-tag">TypeScript</span>
+<span class="tech-tag">Next.js</span>
+<span class="tech-tag">Multi-Agent</span>
+<span class="tech-tag">FastAPI</span>
+</div>
+<span class="achievement">// 1st Place — vibeFORWARD: M2—Agents</span>
+</a>
+
 <a href="{{ '/projects/sharkbyte-support/' | relative_url }}" class="project-card">
 <div class="project-icon"><img src="https://raw.githubusercontent.com/iamnolanhu/sharkbyte-support/main/public/sammy/transparent/sammy-normal-transparent.png" alt="Sammy the Shark"></div>
 <h3>SharkByte Support</h3>

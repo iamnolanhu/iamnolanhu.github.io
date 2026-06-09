@@ -80,5 +80,5 @@ The second challenge was keeping it honest. The detectors are adaptive rather th
 <div class="team-section">
 <img src="{{ '/assets/images/projects/frtc/hackathon-1st-place.jpeg' | relative_url }}" alt="The team — 1st Place at vibeFORWARD: M2—Agents">
 <p><strong>FRTC — Fraud Ring Triage Copilot</strong> — 1st Place, Best All-Around Application at vibeFORWARD: M2—Agents 2026.<br>
-Built by Nolan Hu, Buddhsen Tripathi, Joy van Oranje, Saisrijith Reddy Maramreddy, and Olena Teslia.</p>
+Built by Nolan Hu, <a href="https://devpost.com/buddhsen-tripathi" target="_blank" rel="noopener noreferrer">Buddhsen Tripathi</a>, <a href="https://devpost.com/joy-oranje" target="_blank" rel="noopener noreferrer">Joy van Oranje</a>, <a href="https://devpost.com/srijith-reddy" target="_blank" rel="noopener noreferrer">Saisrijith Reddy Maramreddy</a>, and <a href="https://devpost.com/tesliaolena" target="_blank" rel="noopener noreferrer">Olena Teslia</a>.</p>
 </div>
