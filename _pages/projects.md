@@ -43,18 +43,6 @@ permalink: /projects/
 <span class="achievement">// 3rd Place - MLH x DigitalOcean Hackathon 2025</span>
 </a>
 
-<a href="{{ '/projects/based-sigma/' | relative_url }}" class="project-card">
-<div class="project-icon"><img src="{{ '/assets/images/projects/based-sigma/sigmaguy.png' | relative_url }}" alt="Sigma Guy"></div>
-<h3>Based Sigma</h3>
-<p>AI startup automation toolkit enabling rapid MVP development. Built at Bolt World's Largest Hackathon using React/Vite, Supabase, and Mistral AI.</p>
-<div class="tags-container">
-<span class="tech-tag">TypeScript</span>
-<span class="tech-tag">SaaS</span>
-<span class="tech-tag">AI</span>
-</div>
-<span class="achievement">// World's Largest Hackathon by Bolt</span>
-</a>
-
 <a href="{{ '/projects/twelvesocial/' | relative_url }}" class="project-card">
 <div class="project-icon">   ┌─────────────┐
    │ ╔═══════╗  ○│
@@ -79,6 +67,14 @@ permalink: /projects/
 ## Other Projects
 
 <div class="other-projects">
+
+<a href="{{ '/projects/based-sigma/' | relative_url }}" class="project-mini-card">
+<h4>Based Sigma</h4>
+<p>AI startup automation toolkit for rapid MVP development. Built at Bolt's World's Largest Hackathon using React/Vite, Supabase, and Mistral AI.</p>
+<span class="tech-tag">TypeScript</span>
+<span class="tech-tag">SaaS</span>
+<span class="tech-tag">AI</span>
+</a>
 
 <a href="{{ '/projects/x402-ai-marketplace/' | relative_url }}" class="project-mini-card">
 <h4>x402 AI Marketplace</h4>
