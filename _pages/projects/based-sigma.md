@@ -2,7 +2,8 @@
 layout: project
 title: Based Sigma
 permalink: /projects/based-sigma/
-image: /assets/images/projects/based-sigma/sigmaguy.png
+image: /assets/images/projects/based-sigma/homepage.jpg
+image_wide: true
 tech:
   - React
   - Supabase
@@ -20,8 +21,8 @@ achievement: "// World's Largest Bolt Hackathon"
 Based Sigma is an AI-powered startup builder designed for solo entrepreneurs who prefer quiet execution over hype. It guides users from concept to launch through a unified chatbot interface, automating the entire startup creation process.
 
 <div class="screenshot">
-  <img src="{{ '/assets/images/projects/based-sigma/homepage.jpg' | relative_url }}" alt="Based Sigma homepage">
-  <p><em>AI business automation for sigmas - from zero to CEO while you sleep</em></p>
+  <img src="{{ '/assets/images/projects/based-sigma/features.jpg' | relative_url }}" alt="Based Sigma features - the five startup modules">
+  <p><em>The five modules - branding, legal, marketing, monetization, and launch kits</em></p>
 </div>
 
 ## The 5 Modules
@@ -41,21 +42,25 @@ We built Based Sigma for "the founder in the shadows" - the stealth builders who
 ## Tech Stack
 
 **Frontend**
+
 - Bolt.new for rapid UI deployment
 - Vite + React with dark-mode, matrix-inspired interface
 - Tailwind CSS for styling
 - Mobile-optimized, low-bandwidth design
 
 **Backend**
+
 - Supabase for authentication, sessions, and modular data persistence
 - Database tables tracking profiles, branding, legal docs, marketing, revenue
 
 **AI Engine**
+
 - Single Mistral Small 3.1 model handling all modules via segmented prompts
 - Each output includes regeneration toggles and transparency logs
 - No multi-agent stack - one LLM with modular prompt architecture
 
 **Export**
+
 - html2pdf.js for client-side PDF generation
 - ZIP packaging for complete startup kits
 
@@ -73,10 +78,10 @@ We built Based Sigma for "the founder in the shadows" - the stealth builders who
   <p><em>Meet the absolute legends building the future of business automation</em></p>
 </div>
 
-- **[Nolan Hu](https://x.com/its_nolan_hu){:target="_blank" rel="noopener noreferrer"}** - Based Dev - Puts the "based" in Based Sigma. Architect of systems that just work.
-- **[Apoorva](https://x.com/ApoorvaM94){:target="_blank" rel="noopener noreferrer"}** - Product Designer & Front-End Sigma - The product designer who sees opportunities where others see problems.
-- **[Brian Cardova](https://x.com/honeybdot){:target="_blank" rel="noopener noreferrer"}** - Marketing Wizard - Spreads Sigma energy worldwide through marketing and content creation.
-- **[Suzanna Codes](https://x.com/CodesSuzy){:target="_blank" rel="noopener noreferrer"}** - Designer & Front-End Developer - A sigma designer obsessed with coffee and making websites. Based in Toronto!
+- **[Nolan Hu](https://x.com/its_nolan_hu){:target="\_blank" rel="noopener noreferrer"}** - Based Dev - Puts the "based" in Based Sigma. Architect of systems that just work.
+- **[Apoorva](https://x.com/ApoorvaM94){:target="\_blank" rel="noopener noreferrer"}** - Product Designer & Front-End Sigma - The product designer who sees opportunities where others see problems.
+- **[Brian Cardova](https://x.com/honeybdot){:target="\_blank" rel="noopener noreferrer"}** - Marketing Wizard - Spreads Sigma energy worldwide through marketing and content creation.
+- **[Suzanna Codes](https://x.com/CodesSuzy){:target="\_blank" rel="noopener noreferrer"}** - Designer & Front-End Developer - A sigma designer obsessed with coffee and making websites. Based in Toronto!
 
 ## Built At
 
