@@ -9,6 +9,20 @@ theme: jekyll-theme-hacker
 # Site URL (required for sitemap)
 url: "https://dev.nolanhu.com"
 
+# Files never built into the published site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - node_modules
+  - CLAUDE.md
+  - README.md
+  - Rakefile
+  - script
+  - docs
+
 # Plugins
 plugins:
   - jekyll-sitemap
@@ -62,7 +76,7 @@ collections:
 
 # Timeline feature flags
 timeline:
-  enable_links: false  # Set to true when milestone pages are ready
+  enable_links: false # Set to true when milestone pages are ready
 
 pages:
   - path: "blog"

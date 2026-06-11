@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Nolan Hu</strong><br/>
-  AI Automation Architect
+  Founder of Sigma Synapses · builder of AI that ships
 </p>
 
 <p align="center">
@@ -27,111 +27,50 @@
 
 ---
 
+This is the source for **[dev.nolanhu.com](https://dev.nolanhu.com)** — my corner of the internet.
+
+I spent a decade in financial services as an infrastructure engineer and then a data scientist (JPMorgan, BNY Mellon, HSBC). Now I run [Sigma Synapses](https://dev.nolanhu.com/whoami/), where I build and operate 12+ production applications mostly solo. The trick isn't writing more code by hand — it's turning the work that repeats into systems, and pushing those systems until they mostly run themselves.
+
+## ./ 0xWins
+
+|     | Project                                                                        | Recognition                                                |
+| --- | ------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| 🥇  | **[FRTC — Fraud Ring Triage Copilot](https://dev.nolanhu.com/projects/frtc/)** | 1st Place, Best All-Around — vibeFORWARD: M2—Agents (2026) |
+| 🥉  | **[SharkByte Support](https://dev.nolanhu.com/projects/sharkbyte-support/)**   | 3rd Place — MLH × DigitalOcean Hackathon (2025)            |
+| 🏆  | **[TwelveSocial](https://dev.nolanhu.com/projects/twelvesocial/)**             | Best Use of DigitalOcean — Hacking with Agents NYC (2025)  |
+
 ## ./ 0xNavigate
 
-| Section | Description |
-|---------|-------------|
-| [**Projects**](https://dev.nolanhu.com/projects/) | Side projects & experiments |
-| [**Blog**](https://dev.nolanhu.com/blog/) | Technical writeups & archives |
-| [**WHOAMI**](https://dev.nolanhu.com/whoami/) | Career, timeline, press |
-| [**Resources**](https://dev.nolanhu.com/resources/) | Downloads & files |
-
----
+| Section                                             | What's there                                            |
+| --------------------------------------------------- | ------------------------------------------------------- |
+| [**Projects**](https://dev.nolanhu.com/projects/)   | What I've built — hackathon winners, tools, experiments |
+| [**Blog**](https://dev.nolanhu.com/blog/)           | Writeups on AI, automation, and lessons from shipping   |
+| [**WHOAMI**](https://dev.nolanhu.com/whoami/)       | The longer story — career, timeline, press              |
+| [**Resources**](https://dev.nolanhu.com/resources/) | Things worth downloading                                |
 
 ## ./ 0xStack
 
-- **Framework**: Jekyll + Hacker Theme
-- **Hosting**: GitHub Pages
-- **Background**: Matrix rain animation
-
----
+- **Jekyll** — static site, served by **GitHub Pages**
+- **hacker** theme as a base, heavily customized
+- Matrix-rain background and a few too many late nights
 
 <details>
-<summary><strong>./ 0xSetup</strong> (clone & run locally)</summary>
+<summary><strong>./ 0xRunLocally</strong></summary>
 
-### About This Portfolio
+```bash
+git clone https://github.com/iamnolanhu/iamnolanhu.github.io.git
+cd iamnolanhu.github.io
+bundle install
+bundle exec jekyll serve   # http://localhost:4000
+```
 
-This portfolio is built with Jekyll, a static site generator that transforms plain text into a beautiful website. It highlights my professional journey, technical skills, and projects that I've worked on over the years.
+For Google Analytics, drop your ID into a gitignored `_config_secrets.yml`:
 
-### Clone and Setup
+```yaml
+google_analytics: "YOUR_ID"
+```
 
-If you're interested in using this portfolio as a template for your own site, follow these steps to clone the repository and set it up on your machine:
-
-#### Prerequisites
-
-Ensure you have the following installed on your system:
-
-- **Ruby** version 2.5.0 or higher
-- **RubyGems**
-- **Bundler**
-- **GCC and Make**
-
-For detailed installation instructions, visit the [Jekyll documentation](https://jekyllrb.com/docs/).
-
-#### Installation Steps
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/iamnolanhu/iamnolanhu.github.io.git
-   cd iamnolanhu.github.io
-   ```
-
-2. **Install Dependencies:**
-
-   Use Bundler to install the necessary gems:
-
-   ```bash
-   bundle install
-   ```
-
-3. **Set Up Environment Variables:**
-
-   If you have sensitive information like Google Analytics IDs, create a `_config_secrets.yml` file and add it to your `.gitignore`:
-
-   ```yaml
-   google_analytics: "YOUR_GOOGLE_ANALYTICS_ID"
-   ```
-
-4. **Serve the Site Locally:**
-
-   Run the following command to build and serve the site locally:
-
-   ```bash
-   bundle exec jekyll serve --config _config.yml,_config_secrets.yml
-   ```
-
-5. **View Your Site:**
-
-   Open your browser and navigate to `http://localhost:4000` to see your site in action.
-
-### Setting Up GitHub Pages with Jekyll
-
-1. **Push to GitHub:**
-
-   After making your changes, push your repository to GitHub. Ensure your repository is named `yourusername.github.io` for user pages.
-
-2. **Configure GitHub Pages:**
-
-   - Go to your repository on GitHub.
-   - Click on **Settings**.
-   - Scroll down to the **Pages** section.
-   - Select the branch you want to use for GitHub Pages (usually `main` or `master`).
-   - Click **Save**.
-
-3. **Custom Domain Setup:**
-
-   If you want to use a custom domain, create a `CNAME` file in the root of your repository with your domain name:
-
-   ```plaintext
-   www.yourdomain.com
-   ```
-
-   - Update your DNS settings to point your domain to GitHub Pages. Typically, this involves setting an `A` record to `185.199.108.153` (and similar IPs) and a `CNAME` record pointing to `yourusername.github.io`.
-
-4. **Verify Your Site:**
-
-   After setting up, your site should be live at `https://yourusername.github.io` or your custom domain.
+then serve with `bundle exec jekyll serve --config _config.yml,_config_secrets.yml`.
 
 </details>
 
