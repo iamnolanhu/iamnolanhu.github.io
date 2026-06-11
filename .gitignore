@@ -13,3 +13,6 @@ _drafts/
 
 # Git worktrees
 /.worktrees/
+
+# Local working notes (not part of the published site)
+docs/
