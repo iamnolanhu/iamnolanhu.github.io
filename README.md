@@ -27,30 +27,30 @@
 
 ---
 
-This is the source for **[dev.nolanhu.com](https://dev.nolanhu.com)** — my corner of the internet.
+This is the source for **[dev.nolanhu.com](https://dev.nolanhu.com)**, my corner of the internet.
 
-I spent a decade in financial services as an infrastructure engineer and then a data scientist (JPMorgan, BNY Mellon, HSBC). Now I run [Sigma Synapses](https://dev.nolanhu.com/whoami/), where I build and operate 12+ production applications mostly solo. The trick isn't writing more code by hand — it's turning the work that repeats into systems, and pushing those systems until they mostly run themselves.
+I spent about a decade in financial services. I started as an infrastructure engineer at JPMorgan and moved into a data scientist role there, with data work along the way at BNY Mellon and HSBC. Now I run [Sigma Synapses](https://dev.nolanhu.com/whoami/), where I build and run production apps mostly on my own. Most of my time goes into turning repetitive work into systems that run without me.
 
 ## ./ 0xWins
 
-|     | Project                                                                        | Recognition                                                |
-| --- | ------------------------------------------------------------------------------ | ---------------------------------------------------------- |
-| 🥇  | **[FRTC — Fraud Ring Triage Copilot](https://dev.nolanhu.com/projects/frtc/)** | 1st Place, Best All-Around — vibeFORWARD: M2—Agents (2026) |
-| 🥉  | **[SharkByte Support](https://dev.nolanhu.com/projects/sharkbyte-support/)**   | 3rd Place — MLH × DigitalOcean Hackathon (2025)            |
-| 🏆  | **[TwelveSocial](https://dev.nolanhu.com/projects/twelvesocial/)**             | Best Use of DigitalOcean — Hacking with Agents NYC (2025)  |
+|     | Project                                                                        | Recognition                                                 |
+| --- | ------------------------------------------------------------------------------ | ----------------------------------------------------------- |
+| 🥇  | **[FRTC — Fraud Ring Triage Copilot](https://dev.nolanhu.com/projects/frtc/)** | 1st Place, Best All-Around at vibeFORWARD: M2-Agents (2026) |
+| 🥉  | **[SharkByte Support](https://dev.nolanhu.com/projects/sharkbyte-support/)**   | 3rd Place at MLH × DigitalOcean Hackathon (2025)            |
+| 🏆  | **[TwelveSocial](https://dev.nolanhu.com/projects/twelvesocial/)**             | Best Use of DigitalOcean at Hacking with Agents NYC (2025)  |
 
 ## ./ 0xNavigate
 
-| Section                                             | What's there                                            |
-| --------------------------------------------------- | ------------------------------------------------------- |
-| [**Projects**](https://dev.nolanhu.com/projects/)   | What I've built — hackathon winners, tools, experiments |
-| [**Blog**](https://dev.nolanhu.com/blog/)           | Writeups on AI, automation, and lessons from shipping   |
-| [**WHOAMI**](https://dev.nolanhu.com/whoami/)       | The longer story — career, timeline, press              |
-| [**Resources**](https://dev.nolanhu.com/resources/) | Things worth downloading                                |
+| Section                                             | What's there                                           |
+| --------------------------------------------------- | ------------------------------------------------------ |
+| [**Projects**](https://dev.nolanhu.com/projects/)   | What I've built: hackathon winners, tools, experiments |
+| [**Blog**](https://dev.nolanhu.com/blog/)           | Writeups on AI, automation, and lessons from shipping  |
+| [**WHOAMI**](https://dev.nolanhu.com/whoami/)       | The longer story: career, timeline, press              |
+| [**Resources**](https://dev.nolanhu.com/resources/) | Things worth downloading                               |
 
 ## ./ 0xStack
 
-- **Jekyll** — static site, served by **GitHub Pages**
+- **Jekyll** static site, served by **GitHub Pages**
 - **hacker** theme as a base, heavily customized
 - Matrix-rain background and a few too many late nights
 
