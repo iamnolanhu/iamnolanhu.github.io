@@ -11,26 +11,6 @@ permalink: /projects/
 
 <div class="featured-projects">
 
-<a href="{{ '/projects/claude-dotfiles/' | relative_url }}" class="project-card">
-<div class="project-icon">   ┌─────────────────┐
-   │ claude-dotfiles │
-   │                 │
-   │      .-.        │
-   │     (o o)       │
-   │     | O \       │
-   │      `~~~'      │
-   └─────────────────┘</div>
-<h3>claude-dotfiles</h3>
-<p>The open-source Claude Code setup I build with: a 15-plugin agentic core, layered profiles, MCP wiring, and an onboarding flow that lets anyone ship by describing what they want. Clone it, or just ask the AI to set it up.</p>
-<div class="tags-container">
-<span class="tech-tag">Claude Code</span>
-<span class="tech-tag">Agentic AI</span>
-<span class="tech-tag">MCP</span>
-<span class="tech-tag">DevOps</span>
-</div>
-<span class="achievement">// Open source — ship like a team of one</span>
-</a>
-
 <a href="{{ '/projects/frtc/' | relative_url }}" class="project-card">
 <div class="project-icon">   ┌───────────────┐
    │  F R T C      │
@@ -87,6 +67,14 @@ permalink: /projects/
 ## Other Projects
 
 <div class="other-projects">
+
+<a href="{{ '/projects/claude-dotfiles/' | relative_url }}" class="project-mini-card">
+<h4>claude-dotfiles</h4>
+<p>My daily Claude Code setup, open-sourced. A 15-plugin agentic core, desktop and VPS profiles, and an onboarding flow that lets you ship by describing what you want — clone it, or just ask the AI to set it up.</p>
+<span class="tech-tag">Claude Code</span>
+<span class="tech-tag">Agentic AI</span>
+<span class="tech-tag">MCP</span>
+</a>
 
 <a href="{{ '/projects/based-sigma/' | relative_url }}" class="project-mini-card">
 <h4>Based Sigma</h4>
