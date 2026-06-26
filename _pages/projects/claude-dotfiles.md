@@ -75,7 +75,6 @@ The point of all of it is to let one person ship, run production, and talk to cl
 
 - **Repo**: [github.com/iamnolanhu/claude-dotfiles](https://github.com/iamnolanhu/claude-dotfiles){:target="\_blank" rel="noopener noreferrer"}
 - **Write-up**: [Ship Like a Team of One](https://dev.nolanhu.com/blog/2026/06/26/ship-like-a-team-of-one/){:target="\_blank" rel="noopener noreferrer"}
-- **Business**: [sigmasynapses.com](https://sigmasynapses.com){:target="\_blank" rel="noopener noreferrer"}
 
 <figure class="screenshot">
   <img src="{{ '/assets/images/projects/claude-dotfiles/overview.png' | relative_url }}" alt="claude-dotfiles overview - profiles, plugins, and MCP wiring assembled into one config">
