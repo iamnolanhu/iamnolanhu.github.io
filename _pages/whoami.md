@@ -19,7 +19,7 @@ I've been taking things apart since I could hold a screwdriver. That curiosity l
 
 Now I'm the founder of Sigma Synapses, where I build AI-powered business solutions. Same curiosity, bigger playground. I take enterprise-grade engineering experience and combine it with modern LLMs, RAG architecture, and workflow automation to help businesses actually ship things.
 
-Brooklyn-based. Bilingual in English and Cantonese/Mandarin.
+Queens-based. Bilingual in English and Cantonese/Mandarin.
 
 For the full career breakdown—experience, skills, and awards—check out [0xCareer]({{ '/whoami/career/' | relative_url }}).
 

@@ -7,7 +7,7 @@ image: /assets/images/og-default.png
 
 <h1 class="page-title" data-text="./ 0xHome"></h1>
 
-Welcome to my corner of the internet. I'm a developer and data professional based in Brooklyn, and I've spent the last decade doing a bit of everything—security, data engineering, automation, and lately, building with AI.
+Welcome to my corner of the internet. I'm a developer and data professional based in Queens, and I've spent the last decade doing a bit of everything—security, data engineering, automation, and lately, building with AI.
 
 I've never liked doing things the mundane way. If I have to do something more than once, I'm already thinking about how to automate it. That mindset carried me through roles at JPMorgan, HSBC, and BNY Mellon, where I was always looking for ways to make systems smarter and workflows less painful.
 
@@ -15,7 +15,7 @@ These days I'm obsessed with AI—not the hype, but the actual building. That's 
 
 <img src="{{ '/assets/images/home/family-ghibli.png' | relative_url }}" alt="Ghibli-style illustration of my family" class="home-family">
 
-Brooklyn-based. Dad. Speaks Cantonese at home. Still uses vim. Believes the best debugging happens after a good night's sleep—though I rarely follow my own advice.
+Queens-based. Dad. Speaks Cantonese at home. Still uses vim. Believes the best debugging happens after a good night's sleep—though I rarely follow my own advice.
 
 ---
 
