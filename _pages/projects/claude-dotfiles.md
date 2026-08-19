@@ -2,6 +2,8 @@
 layout: project
 title: Claude Dotfiles
 permalink: /projects/claude-dotfiles/
+image: /assets/images/projects/claude-dotfiles/hero.png
+image_wide: true
 tech:
   - Claude Code
   - Bash

@@ -2,6 +2,8 @@
 layout: project
 title: Traefik Starter
 permalink: /projects/traefik-starter/
+image: /assets/images/projects/traefik-starter/hero.png
+image_wide: true
 tech:
   - Docker
   - Shell

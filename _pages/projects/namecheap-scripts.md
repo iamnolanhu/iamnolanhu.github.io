@@ -2,6 +2,8 @@
 layout: project
 title: Namecheap Scripts
 permalink: /projects/namecheap-scripts/
+image: /assets/images/projects/namecheap-scripts/hero.png
+image_wide: true
 tech:
   - Python
   - Namecheap API

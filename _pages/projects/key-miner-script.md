@@ -2,6 +2,8 @@
 layout: project
 title: Key Miner Script
 permalink: /projects/key-miner-script/
+image: /assets/images/projects/key-miner-script/hero.png
+image_wide: true
 tech:
   - Python
   - Docker

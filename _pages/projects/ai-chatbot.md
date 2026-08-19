@@ -2,6 +2,8 @@
 layout: project
 title: AI Chatbot
 permalink: /projects/ai-chatbot/
+image: /assets/images/projects/ai-chatbot/hero.png
+image_wide: true
 tech:
   - Next.js
   - Django

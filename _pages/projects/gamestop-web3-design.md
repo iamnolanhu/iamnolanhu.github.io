@@ -2,6 +2,8 @@
 layout: project
 title: GameStop Web3 Clone
 permalink: /projects/gamestop-web3-design/
+image: /assets/images/projects/gamestop-web3-design/hero.png
+image_wide: true
 tech:
   - React
   - TypeScript

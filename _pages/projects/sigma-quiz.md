@@ -2,6 +2,8 @@
 layout: project
 title: Sigma Quiz WebApp
 permalink: /projects/sigma-quiz/
+image: /assets/images/projects/sigma-quiz/hero.png
+image_wide: true
 tech:
   - Python
   - React

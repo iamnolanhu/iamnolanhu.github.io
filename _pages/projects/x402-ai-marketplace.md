@@ -2,6 +2,8 @@
 layout: project
 title: x402 AI Marketplace
 permalink: /projects/x402-ai-marketplace/
+image: /assets/images/projects/x402-ai-marketplace/hero.png
+image_wide: true
 tech:
   - TypeScript
   - React

@@ -2,6 +2,8 @@
 layout: project
 title: Python Telegram Bot
 permalink: /projects/telegram-bot/
+image: /assets/images/projects/telegram-bot/hero.png
+image_wide: true
 tech:
   - Python
   - Telegram API
