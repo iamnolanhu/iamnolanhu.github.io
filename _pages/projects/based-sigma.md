@@ -2,7 +2,8 @@
 layout: project
 title: Based Sigma
 permalink: /projects/based-sigma/
-image: /assets/images/projects/based-sigma/sigmaguy.png
+image: /assets/images/projects/based-sigma/hero.png
+image_wide: true
 tech:
   - React
   - Supabase

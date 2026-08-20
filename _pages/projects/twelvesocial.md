@@ -2,7 +2,7 @@
 layout: project
 title: TwelveSocial
 permalink: /projects/twelvesocial/
-image: /assets/images/projects/twelvesocial/title.png
+image: /assets/images/projects/twelvesocial/hero.png
 image_wide: true
 tech:
   - Next.js

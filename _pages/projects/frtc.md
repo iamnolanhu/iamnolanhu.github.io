@@ -2,7 +2,7 @@
 layout: project
 title: FRTC — Fraud Ring Triage Copilot
 permalink: /projects/frtc/
-image: /assets/images/projects/frtc/devpost-cover.png
+image: /assets/images/projects/frtc/hero.png
 image_wide: true
 tech:
   - TypeScript

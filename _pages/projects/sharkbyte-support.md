@@ -2,7 +2,8 @@
 layout: project
 title: SharkByte Support
 permalink: /projects/sharkbyte-support/
-image: https://raw.githubusercontent.com/iamnolanhu/sharkbyte-support/main/public/sammy/transparent/sammy-normal-transparent.png
+image: /assets/images/projects/sharkbyte-support/hero.png
+image_wide: true
 tech:
   - TypeScript
   - Next.js
