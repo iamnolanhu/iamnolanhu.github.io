@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "From College Labs to Hackathon Podiums: My Journey With DigitalOcean and AI"
+image: /assets/images/blog/from-college-labs-to-hackathon-podiums/hero.png
 date: 2025-12-28
 author: Nolan Hu
 tags: [hackathon, digitalocean, ai, sharkbyte]

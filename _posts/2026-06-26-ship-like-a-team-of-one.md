@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How I Ship Like a Team of One"
+image: /assets/images/blog/ship-like-a-team-of-one/hero.png
 date: 2026-06-26
 author: Nolan Hu
 tags: [ai, agents, claude-code, automation, sigma-synapses]

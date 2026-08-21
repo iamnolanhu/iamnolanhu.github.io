@@ -10,6 +10,10 @@ theme: jekyll-theme-hacker
 url: "https://dev.nolanhu.com"
 
 # Files never built into the published site
+# serve the per-listing image folders (underscore dirs are skipped by default)
+include:
+  - "_index"
+
 exclude:
   - Gemfile
   - Gemfile.lock

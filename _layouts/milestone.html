@@ -15,6 +15,10 @@ layout: default
 
 <h2>{{ page.event_title }}</h2>
 
+{% if page.image and page.image != "/assets/images/meta/og-default.png" %}
+<div class="milestone-hero"><img src="{{ page.image | relative_url }}" alt=""></div>
+{% endif %}
+
 {{ content }}
 
 {% if page.related_project or page.related_press or page.related_blog %}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Do You Believe in the Future?"
+image: /assets/images/blog/do-you-believe-in-the-future/hero.png
 date: 2025-01-27
 author: Nolan Hu
 tags: [philosophy, thoughts]

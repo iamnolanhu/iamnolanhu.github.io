@@ -11,6 +11,10 @@ layout: default
     </p>
   </header>
 
+  {% if page.image and page.image != "/assets/images/meta/og-default.png" %}
+  <div class="post-hero"><img src="{{ page.image | relative_url }}" alt=""></div>
+  {% endif %}
+
   <div class="post-content">
     {{ content }}
   </div>

@@ -1281,3 +1281,27 @@ pre.hidden-log {
     margin-bottom: 8px;
   }
 }
+
+/* roadmap imagery: post/milestone heroes, timeline thumbs, listing banners */
+.post-hero img,
+.milestone-hero img,
+.page-banner {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba($conifer, 0.35);
+  border-radius: 6px;
+  margin: 0 0 24px;
+}
+.timeline-content .timeline-thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  border: 1px solid rgba($conifer, 0.25);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  opacity: 0.92;
+}

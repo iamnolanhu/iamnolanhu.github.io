@@ -5,6 +5,8 @@ description: "Technical articles on AI automation, RAG architecture, Python deve
 permalink: /blog/
 ---
 
+<img class="page-banner" src="{{ '/assets/images/blog/_index/banner.png' | relative_url }}" alt="" width="1280" height="640">
+
 <h1 class="page-title" data-text="./ 0xBlog"></h1>
 
 {% if site.posts.size > 0 %}
