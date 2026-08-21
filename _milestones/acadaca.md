@@ -4,6 +4,7 @@ title: "Acadaca — Security Operations Intern | Timeline"
 event_title: "Acadaca — Security Operations Intern"
 description: "Hands-on penetration testing on web apps and internal networks. First professional security role."
 year: 2015
+logo: acadaca
 draft: true # placeholder body — unlink from timeline until finished
 tags: [career, security]
 order: 14

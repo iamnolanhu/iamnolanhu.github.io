@@ -4,6 +4,7 @@ title: "MLH x DigitalOcean Hackathon — 3rd Place | Timeline"
 event_title: "MLH x DigitalOcean Hackathon — 3rd Place"
 description: "Built SharkByte Support, an AI-powered customer support agent using RAG architecture."
 year: 2025
+logo: mlh
 draft: true # placeholder body — unlink from timeline until finished
 tags: [hackathon, ai]
 order: 1
