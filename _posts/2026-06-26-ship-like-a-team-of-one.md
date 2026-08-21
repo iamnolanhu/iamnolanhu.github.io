@@ -31,7 +31,7 @@ Or — and this is the part I'd actually recommend — don't run anything by han
 <p><em>One command, or just ask Claude to do it.</em></p>
 </div>
 
-A 15-plugin core installs the workflow backbone — brainstorming, test-driven development, systematic debugging, planning, multi-file feature work, code review, persistent memory, browser-driven verification. On my desktop that core grows to around 30 plugins; a leaner VPS profile runs about 20. Then there's an onboarding layer that, if you've never coded, will literally walk you from "I want to build a thing" to a deployed result. You open Claude Code, say `help me get started`, and it routes you through plan → build → verify → review → ship, explaining every step in plain words.
+A core plugin set installs the workflow backbone — brainstorming, test-driven development, systematic debugging, planning, multi-file feature work, code review, persistent memory, browser-driven verification. My desktop profile layers more on top; a leaner VPS profile trims it down. Then there's an onboarding layer that, if you've never coded, will literally walk you from "I want to build a thing" to a deployed result. You open Claude Code, say `help me get started`, and it routes you through plan → build → verify → review → ship, explaining every step in plain words.
 
 I built that part for a specific reason. I kept watching people with great ideas get stuck at the terminal. The model could build their thing. They just didn't know how to ask, or what was safe to do. So I encoded the asking.
 
@@ -50,10 +50,10 @@ One honest caution, said once: only hand it tokens you're genuinely comfortable 
 The flashy part is the agents. The part that lets me sleep — especially once the agent has real credentials — is the guardrails:
 
 - Nothing is "done" until it's actually run and shown working. No "this should work."
-- Every working state gets committed automatically, so there's always a point to rewind to.
-- Anything risky — spending money, deploying, deleting, touching secrets — stops and asks first.
+- The workflow commits working states as it goes, so there's usually a point to rewind to.
+- Anything risky — spending money, deploying, deleting, touching secrets — is set up to stop and ask first.
 
-These sound boring. They're the whole game. A non-coder can ship with this setup _because_ the rails won't let the thing quietly break. I hand the agent my keys for the same reason — I'm not trusting it blindly, I'm trusting the rails. I'm not babysitting, I'm reviewing.
+These sound boring. They're the whole game. A non-coder can ship with this setup _because_ the rails catch most of what would otherwise quietly break. I hand the agent my keys for the same reason — I'm not trusting it blindly, I'm trusting the rails I've set up. I'm not babysitting, I'm reviewing.
 
 ## How this actually runs a company
 
@@ -69,7 +69,7 @@ One person, real client work shipping. Not because I'm fast at typing — becaus
 
 ## Take it
 
-It's MIT licensed. [Clone it](https://github.com/iamnolanhu/claude-dotfiles), fork it, rip out what doesn't fit. There's a [project page]({{ '/projects/claude-dotfiles/' | relative_url }}) with more on how it fits together. If you're non-technical and you've been waiting for permission to build something, this is it — open Claude Code in the folder, say `help me get started`, and let it set itself up. That's a real door.
+It's open source. [Clone it](https://github.com/iamnolanhu/claude-dotfiles), fork it, rip out what doesn't fit. There's a [project page]({{ '/projects/claude-dotfiles/' | relative_url }}) with more on how it fits together. If you're non-technical and you've been waiting for permission to build something, this is it — open Claude Code in the folder, say `help me get started`, and let it set itself up. That's a real door.
 
 And if you'd rather have AI agents handle your customer conversations instead of building it yourself, that's literally what I do for a living. Come say hi at [sigmasynapses.com](https://sigmasynapses.com).
 
