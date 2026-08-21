@@ -13,8 +13,6 @@ permalink: /whoami/
   <a href="{{ '/whoami/press/' | relative_url }}">0xPress</a>
 </div>
 
-<img class="page-banner" src="{{ '/assets/images/whoami/_index/banner.png' | relative_url }}" alt="" width="1280" height="640">
-
 ## Origin Story
 
 I've been taking things apart since I could hold a screwdriver. That curiosity led me through a decade in financial services—building data pipelines at JPMorgan, automating workflows at HSBC, and managing cyber risk at BNY Mellon. Along the way, I earned a BlackHat USA scholarship, competed in CTFs, and realized that the most interesting problems live at the intersection of security, data, and automation.
