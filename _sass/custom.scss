@@ -1335,3 +1335,15 @@ pre.hidden-log {
   .logo-strip { gap: 18px; }
   .logo-strip .logo-item svg { height: 20px; }
 }
+
+/* small org mark on milestone detail pages */
+.milestone-logo {
+  margin: 6px 0 10px;
+  color: #8b949e;
+  opacity: 0.7;
+}
+.milestone-logo svg {
+  height: 26px;
+  width: auto;
+  max-width: 160px;
+}

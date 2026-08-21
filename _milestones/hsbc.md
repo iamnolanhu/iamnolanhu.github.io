@@ -5,6 +5,7 @@ image: /assets/images/milestones/hsbc/hero.png
 event_title: "HSBC — Analytics Associate"
 description: "Analytics Associate. Automated the team's business-as-usual reporting with Alteryx."
 year: 2018
+logo: hsbc
 tags: [career, data]
 order: 7
 ---

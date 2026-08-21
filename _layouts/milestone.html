@@ -13,6 +13,9 @@ layout: default
   </span>
 </div>
 
+{% if page.logo %}{% capture logofile %}logos/{{ page.logo }}.svg{% endcapture %}
+<div class="milestone-logo">{% include {{ logofile }} %}</div>
+{% endif %}
 <h2>{{ page.event_title }}</h2>
 
 {% if page.image and page.image != "/assets/images/meta/og-default.png" %}
