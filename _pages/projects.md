@@ -12,7 +12,7 @@ permalink: /projects/
 <div class="featured-projects">
 
 <a href="{{ '/projects/frtc/' | relative_url }}" class="project-card">
-<div class="project-icon"><img src="{{ '/assets/images/projects/frtc/hero.png' | relative_url }}" alt="" width="1280" height="640"></div>
+<div class="project-icon"><img src="{{ '/assets/images/projects/frtc/hero.webp' | relative_url }}" alt="" width="1280" height="640"></div>
 <h3>FRTC — Fraud Ring Triage Copilot</h3>
 <p>"Uber for fraud detection." A multi-agent system that autonomously hunts a coordinated fraud ring in 90 days of bank transactions — six specialist agents and an adversarial Skeptic reasoning live over Cognee shared memory. 100% precision and recall.</p>
 <div class="tags-container">
@@ -25,7 +25,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/sharkbyte-support/' | relative_url }}" class="project-card">
-<div class="project-icon"><img src="{{ '/assets/images/projects/sharkbyte-support/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async"></div>
+<div class="project-icon"><img src="{{ '/assets/images/projects/sharkbyte-support/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async"></div>
 <h3>SharkByte Support</h3>
 <p>Feed Sammy a URL and watch him dive deep into your site. An AI-powered support agent using RAG architecture and n8n workflows to answer customer questions about your content.</p>
 <div class="tags-container">
@@ -38,7 +38,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/twelvesocial/' | relative_url }}" class="project-card">
-<div class="project-icon"><img src="{{ '/assets/images/projects/twelvesocial/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async"></div>
+<div class="project-icon"><img src="{{ '/assets/images/projects/twelvesocial/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async"></div>
 <h3>TwelveSocial</h3>
 <p>Transform long videos into engaging social media clips using AI-powered analysis and automated clip generation.</p>
 <div class="tags-container">
@@ -56,7 +56,7 @@ permalink: /projects/
 <div class="other-projects">
 
 <a href="{{ '/projects/claude-dotfiles/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/claude-dotfiles/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/claude-dotfiles/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>claude-dotfiles</h4>
 <p>My daily Claude Code setup, open-sourced. A 15-plugin agentic core, desktop and VPS profiles, and an onboarding flow that lets you ship by describing what you want — clone it, or just ask the AI to set it up.</p>
 <span class="tech-tag">Claude Code</span>
@@ -65,7 +65,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/based-sigma/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/based-sigma/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/based-sigma/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>Based Sigma</h4>
 <p>AI startup automation toolkit for rapid MVP development. Built at Bolt's World's Largest Hackathon using React/Vite, Supabase, and Mistral AI.</p>
 <span class="tech-tag">TypeScript</span>
@@ -74,7 +74,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/x402-ai-marketplace/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/x402-ai-marketplace/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/x402-ai-marketplace/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>x402 AI Marketplace</h4>
 <p>Decentralized AI marketplace with crypto payments. Pay for AI with USDC on Base network.</p>
 <span class="tech-tag">TypeScript</span>
@@ -83,7 +83,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/namecheap-scripts/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/namecheap-scripts/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/namecheap-scripts/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>Namecheap Scripts</h4>
 <p>CLI scripts to manage Namecheap subdomains directly from the command line.</p>
 <span class="tech-tag">Python</span>
@@ -91,7 +91,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/traefik-starter/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/traefik-starter/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/traefik-starter/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>Traefik Starter</h4>
 <p>Minimal, production-ready Traefik stack using Docker Compose with auto HTTPS.</p>
 <span class="tech-tag">Docker</span>
@@ -99,7 +99,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/gamestop-web3-design/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/gamestop-web3-design/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/gamestop-web3-design/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>GameStop Web3 Clone</h4>
 <p>E-commerce platform with Web3 wallet integration and Stripe payments.</p>
 <span class="tech-tag">React</span>
@@ -108,7 +108,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/key-miner-script/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/key-miner-script/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/key-miner-script/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>Key Miner Script</h4>
 <p>Automates Ethereum wallet generation, balance checking, and summarization.</p>
 <span class="tech-tag">Python</span>
@@ -117,7 +117,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/ai-chatbot/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/ai-chatbot/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/ai-chatbot/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>AI Chatbot</h4>
 <p>Conversational AI application exploring LLM integration for dynamic interactions.</p>
 <span class="tech-tag">Next.js</span>
@@ -126,7 +126,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/telegram-bot/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/telegram-bot/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/telegram-bot/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>Python Telegram Bot</h4>
 <p>Automated messaging bot with custom commands for productivity enhancement.</p>
 <span class="tech-tag">Python</span>
@@ -134,7 +134,7 @@ permalink: /projects/
 </a>
 
 <a href="{{ '/projects/sigma-quiz/' | relative_url }}" class="project-mini-card">
-<img class="mini-hero" src="{{ '/assets/images/projects/sigma-quiz/hero.png' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
+<img class="mini-hero" src="{{ '/assets/images/projects/sigma-quiz/hero.webp' | relative_url }}" alt="" width="1280" height="640" loading="lazy" decoding="async">
 <h4>Sigma Quiz WebApp</h4>
 <p>Interactive quiz platform with Python backend and responsive frontend.</p>
 <span class="tech-tag">Python</span>
