@@ -4,6 +4,7 @@ title: "NYC College of Technology — Started | Timeline"
 event_title: "NYC College of Technology — Started"
 description: "Began Computer Systems Technology program. Dean's List first semester."
 year: 2013
+draft: true # placeholder body — unlink from timeline until finished
 tags: [education]
 order: 20
 ---

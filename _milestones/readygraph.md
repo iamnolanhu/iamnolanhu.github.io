@@ -4,6 +4,7 @@ title: "ReadyGraph — Developer Intern | Timeline"
 event_title: "ReadyGraph — Developer Intern"
 description: "WordPress development and customer support for growth marketing startup."
 year: 2015
+draft: true # placeholder body — unlink from timeline until finished
 tags: [career]
 order: 15
 ---

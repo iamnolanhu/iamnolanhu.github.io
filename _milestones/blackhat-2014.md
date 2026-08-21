@@ -4,6 +4,7 @@ title: "BlackHat USA — Full Scholarship | Timeline"
 event_title: "BlackHat USA — Full Scholarship"
 description: "Received full attendance scholarship to the premier security conference."
 year: 2014
+draft: true # placeholder body — unlink from timeline until finished
 tags: [security, scholarship]
 order: 18
 related_press: /whoami/press/citytech-scholars-2015/

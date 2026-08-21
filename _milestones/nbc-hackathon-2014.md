@@ -4,6 +4,7 @@ title: "NBC Comcast Universal Hackathon — Winner | Timeline"
 event_title: "NBC Comcast Universal Hackathon — Winner"
 description: "Won the Beamly Challenge for innovative storytelling technology."
 year: 2014
+draft: true # placeholder body — unlink from timeline until finished
 tags: [hackathon, winner]
 order: 16
 related_press: /whoami/press/nbc-hackathon-2014/

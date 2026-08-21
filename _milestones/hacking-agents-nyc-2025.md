@@ -4,6 +4,7 @@ title: "Hacking with Agents NYC — DigitalOcean Winner | Timeline"
 event_title: "Hacking with Agents NYC — DigitalOcean Winner"
 description: "Created TwelveSocial, transforming long videos into social media clips with AI."
 year: 2025
+draft: true # placeholder body — unlink from timeline until finished
 tags: [hackathon, ai]
 order: 2
 related_project: /projects/twelvesocial/

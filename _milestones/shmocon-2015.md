@@ -4,6 +4,7 @@ title: "ShmooCon Security Conference — Scholarship | Timeline"
 event_title: "ShmooCon Security Conference — Scholarship"
 description: "Second year receiving scholarship to attend the security conference."
 year: 2015
+draft: true # placeholder body — unlink from timeline until finished
 tags: [security, scholarship]
 order: 12
 related_press: /whoami/press/shmocon-2015/

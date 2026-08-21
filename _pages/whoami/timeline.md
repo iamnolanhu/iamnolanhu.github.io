@@ -22,7 +22,8 @@ A journey through code, competitions, and community.{% if site.timeline.enable_l
 <div class="timeline-item">
   <span class="timeline-year">{{ milestone.year }}</span>
   <div class="timeline-dot"></div>
-  {% if site.timeline.enable_links %}
+  {% assign linkable = site.timeline.enable_links %}{% if milestone.draft %}{% assign linkable = false %}{% endif %}
+  {% if linkable %}
   <a href="{{ milestone.url | relative_url }}" class="timeline-link">
   {% endif %}
     <div class="timeline-content">
@@ -32,7 +33,7 @@ A journey through code, competitions, and community.{% if site.timeline.enable_l
       <span class="timeline-tag">{{ tag }}</span>
       {% endfor %}
     </div>
-  {% if site.timeline.enable_links %}
+  {% if linkable %}
   </a>
   {% endif %}
 </div>
