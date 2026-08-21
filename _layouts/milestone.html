@@ -32,15 +32,17 @@ layout: default
 </ul>
 {% endif %}
 
-<div class="flex-between mt-2">
-  <div class="milestone-meta milestone-footer">
-  <span class="milestone-year">{{ page.year }}</span>
-  <span class="milestone-tags">
+{% if page.tags %}
+<footer class="post-footer">
+  <span class="post-tags">Tags:
+    <span class="tag">{{ page.year }}</span>
     {% for tag in page.tags %}
-    <span class="timeline-tag">{{ tag }}</span>
+      <span class="tag">{{ tag }}</span>{% unless forloop.last %} {% endunless %}
     {% endfor %}
   </span>
-</div>
+</footer>
+{% endif %}
 
-<a href="{{ '/whoami/timeline/' | relative_url }}">← Back to Timeline</a>
+<div class="text-center mt-2">
+  <a href="{{ '/whoami/timeline/' | relative_url }}">← Back to Timeline</a>
 </div>

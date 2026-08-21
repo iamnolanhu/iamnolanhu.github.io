@@ -32,12 +32,6 @@ What I've learned: the best AI systems are invisible. Users don't think about th
 
 ## Where I've Been
 
-<div class="logo-strip" aria-label="Past employers">
-  <span class="logo-item" title="JPMorgan Chase">{% include logos/jpmorganchase.svg %}</span>
-  <span class="logo-item" title="HSBC">{% include logos/hsbc.svg %}</span>
-  <span class="logo-item" title="BNY">{% include logos/bny.svg %}</span>
-  <span class="logo-item logo-text" title="Globe Language Services">GLOBE<br>LANGUAGE</span>
-</div>
 
 **BNY Mellon** — VP Information Security Analyst
 
@@ -85,13 +79,6 @@ My first real job: the entire company's IT, all by myself. Designed and ran the 
 
 ## Awards & Recognition
 
-<div class="logo-strip" aria-label="Hackathon and conference organizations">
-  <span class="logo-item" title="DigitalOcean">{% include logos/digitalocean.svg %}</span>
-  <span class="logo-item" title="Major League Hacking">{% include logos/mlh.svg %}</span>
-  <span class="logo-item" title="Coinbase">{% include logos/coinbase-wordmark.svg %}</span>
-  <span class="logo-item" title="NBCUniversal">{% include logos/nbcuniversal.svg %}</span>
-  <span class="logo-item" title="Black Hat">{% include logos/blackhat.svg %}</span>
-</div>
 
 - **MLH x DigitalOcean Hackathon NYC** — 3rd Place (2025)
 - **Hacking with Agents NYC** — DigitalOcean Challenge Winner (2025)
