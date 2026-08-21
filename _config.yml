@@ -81,7 +81,7 @@ collections:
 
 # Timeline feature flags
 timeline:
-  enable_links: false # Set to true when milestone pages are ready
+  enable_links: true # milestone pages are voice-passed + have heroes
 
 pages:
   - path: "blog"
