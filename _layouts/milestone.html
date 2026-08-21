@@ -2,20 +2,13 @@
 layout: default
 ---
 
+<h1 class="page-title" data-text="./ 0xMilestone"></h1>
+
 {% if page.logo %}{% capture logofile %}logos/{{ page.logo }}.svg{% endcapture %}
 <div class="milestone-logo-hero">{% include {{ logofile }} %}</div>
 {% endif %}
 
-<div class="milestone-meta">
-  <span class="milestone-year">{{ page.year }}</span>
-  <span class="milestone-tags">
-    {% for tag in page.tags %}
-    <span class="timeline-tag">{{ tag }}</span>
-    {% endfor %}
-  </span>
-</div>
-
-<h1 class="milestone-title">{{ page.event_title }}</h1>
+<h2 class="milestone-title">{{ page.event_title }}</h2>
 
 {% if page.image and page.image != "/assets/images/meta/og-default.png" %}
 <div class="milestone-hero"><img src="{{ page.image | relative_url }}" alt=""></div>
@@ -36,5 +29,14 @@ layout: default
 {% endif %}
 
 <div class="flex-between mt-2">
-  <a href="{{ '/whoami/timeline/' | relative_url }}">← Back to Timeline</a>
+  <div class="milestone-meta milestone-footer">
+  <span class="milestone-year">{{ page.year }}</span>
+  <span class="milestone-tags">
+    {% for tag in page.tags %}
+    <span class="timeline-tag">{{ tag }}</span>
+    {% endfor %}
+  </span>
+</div>
+
+<a href="{{ '/whoami/timeline/' | relative_url }}">← Back to Timeline</a>
 </div>

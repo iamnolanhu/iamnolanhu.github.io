@@ -1343,13 +1343,15 @@ pre.hidden-log {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 30px 0 26px;
+  height: 120px;
+  margin: 44px 0 40px;
   color: rgba(181, 232, 83, 0.8);
 }
 .milestone-logo-hero svg {
-  height: 64px;
+  max-height: 58px;
+  height: auto;
   width: auto;
-  max-width: min(420px, 80%);
+  max-width: min(320px, 75%);
 }
 .milestone-meta {
   display: flex;
@@ -1358,6 +1360,11 @@ pre.hidden-log {
   gap: 10px;
   flex-wrap: wrap;
   margin-bottom: 4px;
+}
+.milestone-footer {
+  justify-content: flex-start;
+  margin: 26px 0 14px;
+  opacity: 0.85;
 }
 .milestone-title {
   color: #b5e853;
