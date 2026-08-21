@@ -1,7 +1,6 @@
 ---
 layout: milestone
 title: "BNY Mellon — VP Information Security Analyst | Timeline"
-image: /assets/images/milestones/bny-mellon/hero.png
 event_title: "BNY Mellon — VP Information Security Analyst"
 description: "VP, Information Security Risk Management. Built the Python ETL and pipelines behind the reporting executives used."
 year: 2020

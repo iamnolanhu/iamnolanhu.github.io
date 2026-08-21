@@ -1,7 +1,6 @@
 ---
 layout: milestone
 title: "Globe Language Services — IT Administrator | Timeline"
-image: /assets/images/milestones/globe-first-job/hero.png
 event_title: "Globe Language Services — IT Administrator"
 description: "First real job: the company's entire IT department, solo. Left to chase internships."
 year: 2014

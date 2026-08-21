@@ -1,7 +1,6 @@
 ---
 layout: milestone
 title: "Founded Sigma Synapses | Timeline"
-image: /assets/images/milestones/sigma-synapses-founded/hero.png
 event_title: "Founded Sigma Synapses"
 description: "Building AI systems for businesses. My own thing, end to end."
 year: 2025
