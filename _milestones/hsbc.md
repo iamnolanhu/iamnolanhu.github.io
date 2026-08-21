@@ -2,12 +2,12 @@
 layout: milestone
 title: "HSBC — Analytics Associate | Timeline"
 event_title: "HSBC — Analytics Associate"
-description: "Sales intelligence and analytics. Increased operational efficiency by 40%, automated BAU processes."
+description: "Analytics Associate. Automated the team's business-as-usual reporting with Alteryx."
 year: 2018
 tags: [career, data]
 order: 7
 ---
 
-Analytics Associate at HSBC Commercial Banking. Built sales intelligence tools, increased operational efficiency by 40%, and automated business-as-usual processes saving 15+ hours weekly.
+Analytics Associate at HSBC Commercial Banking. A lot of the work was ritual: the same reports, the same manual checks, 15+ hours a week that added nothing. I built Alteryx workflows that automated the business-as-usual processes and handed the time back.
 
-[Placeholder: Add details about analytics projects and automation work]
+What mattered was what the team did with the hours: real problems instead of report runs. That's when automation clicked for me. Less a productivity tool, more a permission slip.
