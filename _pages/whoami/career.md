@@ -32,6 +32,13 @@ What I've learned: the best AI systems are invisible. Users don't think about th
 
 ## Where I've Been
 
+<div class="logo-strip" aria-label="Past employers">
+  <span class="logo-item" title="JPMorgan Chase">{% include logos/jpmorganchase.svg %}</span>
+  <span class="logo-item" title="HSBC">{% include logos/hsbc.svg %}</span>
+  <span class="logo-item" title="BNY">{% include logos/bny.svg %}</span>
+  <span class="logo-item logo-text" title="Globe Language Services">GLOBE<br>LANGUAGE</span>
+</div>
+
 **BNY Mellon** — VP Information Security Analyst
 
 Security monitoring was mostly reactive: dashboards nobody watched, metrics nobody fully trusted. I built the Python ETL and pipelines that turned raw control data into reporting the risk teams and executives used. The team stopped checking boxes and started catching problems.
@@ -77,6 +84,14 @@ My first real job: the entire company's IT, all by myself. Designed and ran the 
 ---
 
 ## Awards & Recognition
+
+<div class="logo-strip" aria-label="Hackathon and conference organizations">
+  <span class="logo-item" title="DigitalOcean">{% include logos/digitalocean.svg %}</span>
+  <span class="logo-item" title="Major League Hacking">{% include logos/mlh.svg %}</span>
+  <span class="logo-item" title="Coinbase">{% include logos/coinbase-wordmark.svg %}</span>
+  <span class="logo-item" title="NBCUniversal">{% include logos/nbcuniversal.svg %}</span>
+  <span class="logo-item" title="Black Hat">{% include logos/blackhat.svg %}</span>
+</div>
 
 - **MLH x DigitalOcean Hackathon NYC** — 3rd Place (2025)
 - **Hacking with Agents NYC** — DigitalOcean Challenge Winner (2025)
