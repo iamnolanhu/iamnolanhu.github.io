@@ -4,6 +4,7 @@ title: "vibeFORWARD: M2—Agents — 1st Place | Timeline"
 event_title: "vibeFORWARD: M2—Agents — 1st Place"
 description: "Built FRTC, a multi-agent fraud-ring investigator that hit 100% precision and recall."
 year: 2026
+image: /assets/images/blog/2026-06-07-67/hackathon-1st-place.jpeg
 tags: [hackathon, ai, agents]
 order: 0
 related_project: /projects/frtc/
