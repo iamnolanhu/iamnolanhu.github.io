@@ -9,6 +9,7 @@ _config_secrets.yml
 CLAUDE.md
 .claude/
 _drafts/
+drafts/
 .serena/
 
 # Git worktrees
