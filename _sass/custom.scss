@@ -524,6 +524,12 @@ a.project-mini-card {
       border: 1px solid $conifer;
       margin: 20px 0;
     }
+
+    pre {
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      max-width: 100%;
+    }
   }
 
   .project-image {

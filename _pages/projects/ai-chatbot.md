@@ -8,14 +8,6 @@ tech:
   - Next.js
   - Django
   - LLM
-ascii_art: |
-    +----------------------+
-    |  AI CHATBOT          |
-    |  +--------------+    |
-    |  | User: Hello  |    |
-    |  | AI: Hi! [^_^]|    |
-    |  +--------------+    |
-    +----------------------+
 ---
 
 A conversational AI application exploring LLM integration for dynamic user interactions.

@@ -8,12 +8,6 @@ tech:
   - Python
   - Namecheap API
 github_url: https://github.com/iamnolanhu/namecheap_scripts
-ascii_art: |
-    +----------------------+
-    |  $ namecheap-cli     |
-    |  > add subdomain...  |
-    |  [========--] 80%    |
-    +----------------------+
 ---
 
 A collection of Python scripts to manage DNS records through the Namecheap API.

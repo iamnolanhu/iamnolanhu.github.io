@@ -11,17 +11,6 @@ tech:
   - MCP
   - DevOps
 github_url: https://github.com/iamnolanhu/claude-dotfiles
-ascii_art: |
-  ╔═══════════════════════╗
-  ║  > claude-dotfiles    ║
-  ║                       ║
-  ║          .-.          ║
-  ║         (o o)         ║
-  ║         | O \         ║
-  ║         `~~~'         ║
-  ║                       ║
-  ║  ghost in the shell   ║
-  ╚═══════════════════════╝
 ---
 
 Portable Claude Code config you clone once and carry everywhere. One repo holds the persona, the plugins, the MCP wiring, and the profiles, so a fresh machine becomes a working setup in minutes.

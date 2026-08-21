@@ -7,13 +7,6 @@ image_wide: true
 tech:
   - Python
   - Telegram API
-ascii_art: |
-    +----------------------+
-    |  [@] TELEGRAM BOT    |
-    |  /start              |
-    |  /help               |
-    |  /automate [>]       |
-    +----------------------+
 ---
 
 I realized I was doing the same checks manually every morning—API status, deployment logs, uptime reports. The actual thinking took 15 minutes. The ritual took an hour.
