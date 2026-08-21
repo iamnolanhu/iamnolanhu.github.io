@@ -13,13 +13,15 @@ permalink: /whoami/career/
   <a href="{{ '/whoami/press/' | relative_url }}">0xPress</a>
 </div>
 
-Full-stack engineer turned AI automation specialist with 10+ years in financial services. Currently building AI-powered business solutions as founder of Sigma Synapses.
+A decade in financial services taught me that the most valuable engineering isn't about clever code—it's about understanding what humans shouldn't have to do manually, then building systems that free them to think.
 
 ---
 
 ## What I Do Now
 
-I architect and deploy AI-powered solutions using Retrieval Augmented Generation (RAG) with n8n workflows, integrating Claude, OpenAI, and xAI APIs for multichannel customer support. I manage 12+ production applications on DigitalOcean with full-stack ownership—server configuration, monitoring, SSL/TLS, and CI/CD pipelines.
+I build AI that actually ships. Not proof-of-concepts that die in staging, but production systems that handle real workloads—AI agents that talk to customers over voice, SMS, chat, and web with tool calling and RAG context, workflow automation, data pipelines. What started as service work has become a product: the patterns I developed at JPMorgan and BNY now power the applications I run on DigitalOcean. Every layer is mine: infrastructure, monitoring, deployment, the whole stack.
+
+What I've learned: the best AI systems are invisible. Users don't think about the RAG architecture or the n8n workflows—they just get answers that work.
 
 **Recent wins:**
 - **3rd Place** — MLH x DigitalOcean Hackathon 2025 (SharkByte Support)
@@ -31,32 +33,28 @@ I architect and deploy AI-powered solutions using Retrieval Augmented Generation
 ## Where I've Been
 
 **BNY Mellon** — VP Information Security Analyst
-- Reduced data processing time by **30%** through Python-based ETL pipeline optimization
-- Automated metric collection via MS Graph API integration
-- Developed data-driven risk models for continuous control monitoring
+
+Security monitoring was mostly reactive: dashboards nobody watched, metrics nobody fully trusted. I built the Python ETL and pipelines that turned raw control data into reporting the risk teams and executives used. The team stopped checking boxes and started catching problems.
 
 **HSBC** — Analytics Associate
-- Increased operational efficiency by **40%** through Alteryx workflow development
-- Automated BAU processes saving **15+ hours weekly**
-- Built alert systems for account threshold monitoring
+
+A lot of the work was ritual: the same reports, the same manual checks, 15+ hours a week that added nothing. I built Alteryx workflows that automated the business-as-usual processes and handed the time back. The team spent those hours on real problems instead of report runs.
 
 **JPMorgan Chase** — Data Scientist/Engineer & Infrastructure Engineer
-- Reduced data processing time by **80%** through Python multithreading/multiprocessing
-- Built ML pipelines using Hadoop ecosystem (Oozie, Hive, Spark SQL)
-- Enhanced Exit Survey analytics using NLP to identify attrition drivers
-- Developed Java POC integrating Apache Spark with real-time monitoring fabric
+
+Joined as a data scientist, discovered I was really a data engineer. The bottleneck was never the analysis, it was getting clean data to the people doing it. I did most of the data engineering: pulled the records, extracted text from thousands of PDFs, and reached for multithreading when the volume got out of hand. On the exit-survey project that pipeline fed the team's NLP analysis of why people were leaving. I built the plumbing and learned the modeling alongside them.
 
 **Acadaca** — Security Operations Intern
-- Conducted penetration tests on web applications and internal network infrastructure
-- Delivered tailored security assessment reports with actionable remediation recommendations
+
+First taste of offensive security. Conducted penetration tests and wrote reports that changed how clients thought about their infrastructure. Learned that vulnerability isn't about technology—it's about assumptions. The most dangerous bugs are the ones nobody thinks to look for.
 
 **ReadyGraph** — Developer Intern
-- Resolved customer support tickets and maintained WordPress plugin functionality
-- Performed bug testing and quality assurance for growth marketing platform
 
-**Globe Language Services** — IT Administrator *(returned 2015)*
-- Sole IT resource for 20+ employees, maintaining 99% uptime
-- Designed Windows Server environment with Active Directory and Group Policy
+Solved customer tickets and fixed WordPress bugs. Not glamorous, but formative. Learned that the gap between "it works on my machine" and "it works for users" is where most software dies.
+
+**Globe Language Services** — IT Administrator
+
+My first real job: the entire company's IT, all by myself. Designed and ran the Windows Server environment and handled everything that broke. When something breaks and you're the whole IT department, there's no escalation path. You just fix it.
 
 ---
 

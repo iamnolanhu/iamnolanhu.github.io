@@ -16,25 +16,24 @@ ascii_art: |
     +----------------------+
 ---
 
-An automated messaging bot with custom commands for productivity enhancement.
+I realized I was doing the same checks manually every morning—API status, deployment logs, uptime reports. The actual thinking took 15 minutes. The ritual took an hour.
 
-## Overview
+## Why I Built This
 
-A Python-based Telegram bot that automates common tasks and provides utility commands for enhanced productivity through the Telegram messaging platform.
+I don't like rituals that don't serve thinking. Every morning I'd open the same tabs, run the same commands, wait for the same responses—before I could even start working on what mattered. The pattern was obvious: these checks could happen without me. I just needed the results.
+
+Built this bot to eliminate the ritual, not the thinking. Now I wake up to a Telegram message with everything I need to know. If something's wrong, I see it immediately. If everything's fine, I skip the ceremony entirely.
 
 ## Tech Stack
 
-- **Python** - Core bot logic
-- **python-telegram-bot** - Telegram API wrapper
-- **Async/await** - Non-blocking operations
+- **Python** — Core bot logic with async/await for non-blocking operations
+- **python-telegram-bot** — Clean API wrapper that handles the Telegram protocol
 
-## Features
+## What It Does
 
-- Custom command handlers
-- Automated responses
-- Task automation
-- User interaction management
+- Runs scheduled checks on my infrastructure
+- Surfaces problems before I go looking for them
+- Answers queries I used to open dashboards for
+- Stays out of my way when everything's working
 
-## Bot Commands
-
-The bot supports various custom commands for different productivity tasks, providing quick access to information and automation directly within Telegram.
+The interface is Telegram because that's where I already am. The real product isn't the bot—it's the hour I get back every morning.
