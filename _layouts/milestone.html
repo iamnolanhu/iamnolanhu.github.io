@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% if page.logo %}{% capture logofile %}logos/{{ page.logo }}.svg{% endcapture %}
+<div class="milestone-logo-hero">{% include {{ logofile }} %}</div>
+{% endif %}
+
 <div class="milestone-meta">
   <span class="milestone-year">{{ page.year }}</span>
   <span class="milestone-tags">
@@ -9,9 +13,6 @@ layout: default
     <span class="timeline-tag">{{ tag }}</span>
     {% endfor %}
   </span>
-  {% if page.logo %}{% capture logofile %}logos/{{ page.logo }}.svg{% endcapture %}
-  <span class="milestone-logo">{% include {{ logofile }} %}</span>
-  {% endif %}
 </div>
 
 <h1 class="milestone-title">{{ page.event_title }}</h1>
