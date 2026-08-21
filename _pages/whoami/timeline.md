@@ -26,7 +26,6 @@ A journey through code, competitions, and community.{% if site.timeline.enable_l
   <a href="{{ milestone.url | relative_url }}" class="timeline-link">
   {% endif %}
     <div class="timeline-content">
-      {% if milestone.image and milestone.image != "/assets/images/meta/og-default.png" %}<img class="timeline-thumb" src="{{ milestone.image | relative_url }}" alt="" loading="lazy" width="1280" height="640">{% endif %}
       <h4>{{ milestone.event_title }}</h4>
       <p>{{ milestone.description }}</p>
       {% for tag in milestone.tags %}
