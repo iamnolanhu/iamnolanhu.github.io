@@ -5,8 +5,6 @@ description: "NYC-based AI automation engineer and founder of Sigma Synapses. Bl
 permalink: /whoami/
 ---
 
-<img class="page-banner" src="{{ '/assets/images/whoami/_index/banner.png' | relative_url }}" alt="" width="1280" height="640">
-
 <h1 class="page-title" data-text="./ 0xWHOAMI"></h1>
 
 <div class="whoami-nav">
@@ -14,6 +12,8 @@ permalink: /whoami/
   <a href="{{ '/whoami/timeline/' | relative_url }}">0xTimeline</a>
   <a href="{{ '/whoami/press/' | relative_url }}">0xPress</a>
 </div>
+
+<img class="page-banner" src="{{ '/assets/images/whoami/_index/banner.png' | relative_url }}" alt="" width="1280" height="640">
 
 ## Origin Story
 
