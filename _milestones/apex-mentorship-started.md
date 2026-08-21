@@ -4,6 +4,7 @@ title: "Apex for Youth — Started Mentoring | Timeline"
 event_title: "Apex for Youth — Started Mentoring"
 description: "Began 7-year journey mentoring an immigrant student through their academic career."
 year: 2016
+logo_img: /assets/images/logos/apex-for-youth.png
 tags: [volunteer, community]
 order: 9
 ---

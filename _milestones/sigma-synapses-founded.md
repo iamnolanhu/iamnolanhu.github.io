@@ -4,6 +4,8 @@ title: "Founded Sigma Synapses | Timeline"
 event_title: "Founded Sigma Synapses"
 description: "Building AI systems for businesses. My own thing, end to end."
 year: 2025
+logo_img: /assets/images/logos/sigma-synapses.png
+logo_label: "Sigma Synapses"
 tags: [founder, ai]
 order: 3
 ---

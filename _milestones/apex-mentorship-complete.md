@@ -4,6 +4,7 @@ title: "Apex for Youth — 7 Years of Mentorship | Timeline"
 event_title: "Apex for Youth — 7 Years of Mentorship"
 description: "Completed mentoring an immigrant student from middle school through high school graduation."
 year: 2023
+logo_img: /assets/images/logos/apex-for-youth.png
 tags: [volunteer, community]
 order: 4
 ---

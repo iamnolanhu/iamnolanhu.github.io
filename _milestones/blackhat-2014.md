@@ -5,7 +5,6 @@ event_title: "BlackHat USA — Full Scholarship"
 description: "Received full attendance scholarship to the premier security conference."
 year: 2014
 logo: blackhat
-logo_label: "Black Hat"
 tags: [security, scholarship]
 order: 18
 related_press: /whoami/press/citytech-scholars-2015/

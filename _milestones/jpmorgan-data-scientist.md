@@ -5,7 +5,6 @@ event_title: "JPMorgan Chase — Data Scientist/Engineer"
 description: "Data engineering for the workforce-analytics team: data pulls, PDF text extraction, and the pipelines behind the team's NLP work."
 year: 2018
 logo: jpmorganchase
-logo_label: "JPMorgan Chase"
 tags: [career, ml, data]
 order: 8
 ---

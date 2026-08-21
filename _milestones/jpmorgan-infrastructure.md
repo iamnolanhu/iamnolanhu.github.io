@@ -5,7 +5,6 @@ event_title: "JPMorgan Chase — Infrastructure Developer"
 description: "Big Data infrastructure: 30TB Spark SQL aggregation, Spark Streaming, and a Java POC on the real-time metrics fabric."
 year: 2016
 logo: jpmorganchase
-logo_label: "JPMorgan Chase"
 tags: [career, data]
 order: 10
 ---

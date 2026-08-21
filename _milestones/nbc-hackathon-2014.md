@@ -5,7 +5,6 @@ event_title: "NBC Comcast Universal Hackathon — Winner"
 description: "Won the Beamly Challenge for innovative storytelling technology."
 year: 2014
 logo: nbcuniversal
-logo_label: "NBCUniversal"
 tags: [hackathon, winner]
 order: 16
 image: /assets/images/whoami/press/nbc-hackathon-2014/nbc-hackathon-2014.jpg

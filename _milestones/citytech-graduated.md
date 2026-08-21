@@ -4,6 +4,7 @@ title: "NYC College of Technology — Graduated | Timeline"
 event_title: "NYC College of Technology — Graduated"
 description: "Bachelor of Technology in Computer Systems Technology. Honor's Scholar, Dean's List, GPA 3.5."
 year: 2016
+logo_img: /assets/images/logos/citytech.png
 tags: [education]
 order: 11
 related_press: /whoami/press/citytech-scholars-2015/

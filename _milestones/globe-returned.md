@@ -4,6 +4,7 @@ title: "Returned to Globe Language Services | Timeline"
 event_title: "Returned to Globe Language Services"
 description: "Returned as IT Administrator after internships at Acadaca and ReadyGraph. Same one-person IT department, new perspective."
 year: 2015
+logo_img: /assets/images/logos/globe-language.png
 tags: [career]
 order: 13
 ---

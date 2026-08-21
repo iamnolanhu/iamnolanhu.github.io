@@ -4,6 +4,7 @@ title: "Globe Language Services — IT Administrator | Timeline"
 event_title: "Globe Language Services — IT Administrator"
 description: "First real job: the company's entire IT department, solo. Left to chase internships."
 year: 2014
+logo_img: /assets/images/logos/globe-language.png
 tags: [career, first-job]
 order: 19
 ---

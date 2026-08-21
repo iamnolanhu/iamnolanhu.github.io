@@ -4,6 +4,8 @@ title: "ShmooCon Security Conference — Scholarship | Timeline"
 event_title: "ShmooCon Security Conference — Scholarship"
 description: "Second year receiving scholarship to attend the security conference."
 year: 2015
+logo_img: /assets/images/logos/shmoocon.png
+logo_label: "ShmooCon"
 tags: [security, scholarship]
 order: 12
 image: /assets/images/whoami/press/shmocon-2015/shmocon-2015.jpg

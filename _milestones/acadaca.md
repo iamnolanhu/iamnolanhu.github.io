@@ -5,7 +5,6 @@ event_title: "Acadaca — Security Operations Intern"
 description: "Hands-on penetration testing on web apps and internal networks. First professional security role."
 year: 2015
 logo: acadaca
-logo_label: "Acadaca"
 tags: [career, security]
 order: 14
 ---
