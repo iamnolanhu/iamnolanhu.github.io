@@ -4,11 +4,8 @@ title: "Apex for Youth — 7 Years of Mentorship | Timeline"
 event_title: "Apex for Youth — 7 Years of Mentorship"
 description: "Completed mentoring an immigrant student from middle school through high school graduation."
 year: 2023
-draft: true # placeholder body — unlink from timeline until finished
 tags: [volunteer, community]
 order: 4
 ---
 
-Completed a 7-year mentoring journey with Apex for Youth, guiding an immigrant student from middle school through high school graduation.
-
-[Placeholder: Add reflections on the mentorship experience, milestones, and impact]
+My Apex for Youth mentee graduated high school, seven years after we were first paired in middle school. Seven years of showing up, helping with homework, navigating college apps, and being someone they could count on.

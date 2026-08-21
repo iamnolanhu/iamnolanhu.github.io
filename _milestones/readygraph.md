@@ -4,11 +4,10 @@ title: "ReadyGraph — Developer Intern | Timeline"
 event_title: "ReadyGraph — Developer Intern"
 description: "WordPress development and customer support for growth marketing startup."
 year: 2015
-draft: true # placeholder body — unlink from timeline until finished
 tags: [career]
 order: 15
 ---
 
-Developer Intern at ReadyGraph, a growth marketing startup. Resolved customer support tickets, maintained WordPress plugin functionality, and performed bug testing and quality assurance.
+Developer intern at ReadyGraph, a growth marketing startup. Solved customer tickets and fixed WordPress bugs. Not glamorous, but formative.
 
-[Placeholder: Add details about the startup experience and development work]
+Learned that the gap between "it works on my machine" and "it works for users" is where most software dies.

@@ -5,11 +5,10 @@ event_title: "Acadaca — Security Operations Intern"
 description: "Hands-on penetration testing on web apps and internal networks. First professional security role."
 year: 2015
 logo: acadaca
-draft: true # placeholder body — unlink from timeline until finished
 tags: [career, security]
 order: 14
 ---
 
-First professional security role at Acadaca. Conducted penetration tests on web applications and internal network infrastructure. Delivered security assessment reports with actionable remediation recommendations.
+First taste of offensive security. I conducted penetration tests on client web applications and internal networks, and wrote reports that changed how clients thought about their infrastructure.
 
-[Placeholder: Add details about specific security assessments and learnings]
+Learned that vulnerability isn't about technology, it's about assumptions. The most dangerous bugs are the ones nobody thinks to look for.
