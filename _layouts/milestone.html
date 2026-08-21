@@ -6,6 +6,8 @@ layout: default
 
 {% if page.logo %}{% capture logofile %}logos/{{ page.logo }}.svg{% endcapture %}
 <div class="milestone-logo-hero">{% include {{ logofile }} %}</div>
+{% elsif page.logo_img %}
+<div class="milestone-logo-hero"><img src="{{ page.logo_img | relative_url }}" alt=""></div>
 {% endif %}
 
 <h2 class="milestone-title">{{ page.event_title }}</h2>
