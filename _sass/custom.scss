@@ -1344,9 +1344,8 @@ pre.hidden-log {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 12px;
-  min-height: 120px;
-  margin: 44px 0 40px;
+  gap: 14px;
+  margin: 20px 0 26px;
   color: rgba(181, 232, 83, 0.8);
 }
 .milestone-logo-label {
@@ -1357,10 +1356,10 @@ pre.hidden-log {
 }
 .milestone-logo-hero img,
 .milestone-logo-hero svg {
-  max-height: 58px;
+  max-height: 104px;
   height: auto;
   width: auto;
-  max-width: min(320px, 75%);
+  max-width: min(380px, 82%);
 }
 .milestone-meta {
   display: flex;
@@ -1383,7 +1382,8 @@ pre.hidden-log {
   line-height: 1.3;
 }
 @media (max-width: 640px) {
-  .milestone-logo-hero { margin: 18px 0 18px; }
-  .milestone-logo-hero svg { height: 46px; }
+  .milestone-logo-hero { margin: 12px 0 16px; }
+  .milestone-logo-hero img,
+  .milestone-logo-hero svg { max-height: 76px; }
   .milestone-title { font-size: 21px; }
 }
