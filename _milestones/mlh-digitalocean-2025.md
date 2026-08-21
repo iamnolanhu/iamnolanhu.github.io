@@ -5,6 +5,7 @@ event_title: "MLH x DigitalOcean Hackathon — 3rd Place"
 description: "Built SharkByte Support, an AI-powered customer support agent using RAG architecture."
 year: 2025
 logo: mlh
+logo_label: "Major League Hacking"
 tags: [hackathon, ai]
 order: 1
 image: /assets/images/projects/sharkbyte-support/hackathon-3rd-place.webp

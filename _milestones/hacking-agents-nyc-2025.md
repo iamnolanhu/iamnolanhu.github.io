@@ -5,6 +5,7 @@ event_title: "Hacking with Agents NYC — DigitalOcean Winner"
 description: "Created TwelveSocial, transforming long videos into social media clips with AI."
 year: 2025
 logo: digitalocean
+logo_label: "DigitalOcean"
 tags: [hackathon, ai]
 order: 2
 image: /assets/images/whoami/press/hacking-agents-2025/twelvesocial-2025.png

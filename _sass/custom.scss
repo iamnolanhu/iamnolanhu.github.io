@@ -1341,11 +1341,19 @@ pre.hidden-log {
 /* milestone header: big centered logo as the title image, centered title block */
 .milestone-logo-hero {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 120px;
+  gap: 12px;
+  min-height: 120px;
   margin: 44px 0 40px;
   color: rgba(181, 232, 83, 0.8);
+}
+.milestone-logo-label {
+  font-size: 12px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(181, 232, 83, 0.55);
 }
 .milestone-logo-hero img,
 .milestone-logo-hero svg {

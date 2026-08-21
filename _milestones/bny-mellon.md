@@ -5,6 +5,7 @@ event_title: "BNY Mellon — VP Information Security Analyst"
 description: "VP, Information Security Risk Management. Built the Python ETL and pipelines behind the reporting executives used."
 year: 2020
 logo: bny
+logo_label: "BNY Mellon"
 tags: [career, security]
 order: 6
 ---
