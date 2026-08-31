@@ -66,6 +66,13 @@
       sampleRate: "0.5",
     },
     loaded: function (ph) {
+      // visit once with #me to mark this browser as ours; reports exclude it
+      if (location.hash === "#me" || localStorage.getItem("ph_int")) {
+        localStorage.setItem("ph_int", "1");
+        try {
+          ph.setPersonProperties({ is_internal: true });
+        } catch (e) {}
+      }
       try {
         ph.startSessionRecording();
       } catch (e) {}
