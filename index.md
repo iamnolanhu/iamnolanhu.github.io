@@ -2,7 +2,7 @@
 layout: default
 title: "Nolan Hu | Builder, Engineer, Dad"
 description: "AI automation engineer and founder of Sigma Synapses. A decade of building systems that actually work, from JPMorgan to my own thing."
-image: /assets/images/og-default.png
+image: /assets/images/meta/og-default.png
 ---
 
 <h1 class="page-title" data-text="./ 0xHome"></h1>
